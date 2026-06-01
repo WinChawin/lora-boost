@@ -1,0 +1,23 @@
+{
+  "base_model": "black-forest-labs/FLUX.2-klein-base-4B",
+  "caption_tmpl": "a photo of the {organ} of a {trigger} plant",
+  "gen_defaults": {
+    "steps": 28,
+    "guidance": 4.0,
+    "res": 1024
+  },
+  "registry": "data/metadata/lora_registry.csv",
+  "lora_dir": "models/lora",
+  "n_species": 15,
+  "n_ok": 13,
+  "flagged": [
+    {
+      "species_id": "1406486",
+      "flag": "low_consistency"
+    },
+    {
+      "species_id": "1406863",
+      "flag": "low_organ_acc"
+    }
+  ]
+}

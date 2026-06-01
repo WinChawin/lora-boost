@@ -1,0 +1,400 @@
+species_id,scientific_name,genus,is_rare,tropical_frac,n_total,n_train,n_val,n_test,n_flower,n_leaf,license
+1416509,Nepenthes vieillardii Hook. f.,Nepenthes,True,0.9896238651102465,30,20,5,5,12,18,cc-by-sa
+1419807,Vanilla planifolia Jacks. ex Andrews,Vanilla,True,0.722397476340694,33,23,5,5,8,25,cc-by-sa
+1376703,Petiveria alliacea L.,Petiveria,True,0.82478184991274,38,28,5,5,9,29,cc-by-sa
+1409195,Pereskia aculeata Mill.,Pereskia,True,0.7906795105441291,47,33,7,7,12,35,cc-by-sa
+1408557,Pongamia pinnata (L.) Pierre,Pongamia,True,0.9326553392037703,52,36,8,8,17,35,cc-by-sa
+1420787,Alocasia odora (Lindl.) K.Koch,Alocasia,True,0.9300472528490689,54,38,8,8,9,45,cc-by-sa
+1406486,Kigelia africana (Lam.) Benth.,Kigelia,True,0.51338199513382,55,37,9,9,24,31,cc-by-sa
+1408490,Pereskia grandifolia Haw.,Pereskia,True,0.8726287262872628,58,40,9,9,41,17,cc-by-sa
+1385700,Barringtonia asiatica (L.) Kurz,Barringtonia,True,0.8298998298998299,67,47,10,10,36,31,cc-by-sa
+1356076,Tradescantia zebrina Heynh. ex Bosse,Tradescantia,True,0.8372445117335352,69,49,10,10,9,60,cc-by-sa
+1397598,Cobaea scandens Cav.,Cobaea,True,0.797975352112676,69,49,10,10,54,15,cc-by-sa
+1618661,Dendrobium victoriae-reginae Loher,Dendrobium,True,0.9342105263157895,71,51,10,10,62,9,cc-by-sa
+1384499,Lagenaria siceraria (Molina) Standl.,Lagenaria,True,0.421401077752117,80,56,12,12,53,27,cc-by-sa
+1406863,Acalypha indica L.,Acalypha,True,0.654050736497545,92,66,13,13,36,56,cc-by-sa
+1392654,Gomphocarpus physocarpus E.Mey.,Gomphocarpus,True,0.3836341008089608,99,71,14,14,63,36,cc-by-sa
+1356037,Egeria densa Planch.,Egeria,False,,17,13,2,2,8,9,cc-by-sa
+1367938,Acacia drepanolobium Harms ex Y. Sjöstedt,Acacia,False,,17,13,2,2,9,8,cc-by-sa
+1412412,Lactuca biennis (Moench) Fernald,Lactuca,False,,17,13,2,2,8,9,cc-by-sa
+1355955,Pelargonium odoratissimum (L.) L'Hér.,Pelargonium,False,,18,14,2,2,9,9,cc-by-sa
+1358302,Fibigia clypeata (L.) Medik.,Fibigia,False,,18,14,2,2,9,9,cc-by-sa
+1367267,Crotalaria polysperma Kotschy,Crotalaria,False,,18,14,2,2,9,9,cc-by-sa
+1373231,Pelargonium quinquelobatum Hochst. ex A. Rich.,Pelargonium,False,,18,12,3,3,10,8,cc-by-sa
+1374448,Aspilia mossambicensis (Oliv.) Wild,Aspilia,False,,18,14,2,2,9,9,cc-by-sa
+1394580,Angelica razulii Gouan,Angelica,False,,18,14,2,2,9,9,cc-by-sa
+1409834,Neolamarckia cadamba (Roxb.) Bosser,Neolamarckia,False,,18,14,2,2,9,9,cc-by-sa
+1441375,Cirsium horridulum Michx.,Cirsium,False,,18,14,2,2,9,9,cc-by-sa
+1358097,Sedum andegavense (DC.) Desv.,Sedum,False,,19,13,3,3,10,9,cc-by-sa
+1374933,Montanoa hibiscifolia Benth.,Montanoa,False,,19,13,3,3,10,9,cc-by-sa
+1419942,Hebe franciscana (Eastw.) Souster,Hebe,False,,19,13,3,3,8,11,cc-by-sa
+1363019,Cenchrus purpureus (Schumach.) Morrone,Cenchrus,False,,20,12,4,4,10,10,cc-by-sa
+1394995,Pyracantha rogersiana (A.B.Jacks.) Coltm.-Rog.,Pyracantha,False,,20,14,3,3,11,9,cc-by-sa
+1413013,Aralia racemosa L.,Aralia,False,,21,13,4,4,10,11,cc-by-sa
+1434326,Lupinus texensis Hook.,Lupinus,False,,21,15,3,3,13,8,cc-by-sa
+1363688,Crotalaria juncea L.,Crotalaria,False,,22,16,3,3,13,9,cc-by-sa
+1391113,Chaerophyllum villarsii W.D.J.Koch,Chaerophyllum,False,,22,16,3,3,8,14,cc-by-sa
+1397550,Sedum montanum Perrier & Songeon,Sedum,False,,22,16,3,3,13,9,cc-by-sa
+1408451,Paederia foetida L.,Paederia,False,,22,16,3,3,14,8,cc-by-sa
+1373151,Pelargonium alchemilloides (L.) L'Hér.,Pelargonium,False,,24,16,4,4,10,14,cc-by-sa
+1391967,Epipactis purpurata Sm.,Epipactis,False,,24,18,3,3,16,8,cc-by-sa
+1363489,Phalaris aquatica L.,Phalaris,False,,26,18,4,4,17,9,cc-by-sa
+1391190,Cirsium dissectum (L.) Hill,Cirsium,False,,26,18,4,4,14,12,cc-by-sa
+1421001,Pelargonium spp.,Pelargonium,False,,26,18,4,4,15,11,cc-by-sa
+1393253,Hypericum nummularium L.,Hypericum,False,,27,19,4,4,18,9,cc-by-sa
+1433158,Hypericum hypericoides (L.) Crantz,Hypericum,False,,27,17,5,5,10,17,cc-by-sa
+1441349,Cirsium altissimum (L.) Hill,Cirsium,False,,27,17,5,5,17,10,cc-by-sa
+1358096,Sedum amplexicaule DC.,Sedum,False,,28,20,4,4,20,8,cc-by-sa
+1359332,Lupinus micranthus Guss.,Lupinus,False,,28,18,5,5,18,10,cc-by-sa
+1393245,Hypericum elodes L.,Hypericum,False,,28,20,4,4,9,19,cc-by-sa
+1568914,Acacia saligna (Labill.) Wendl.,Acacia,False,,28,20,4,4,20,8,cc-by-sa
+1357681,Lactuca saligna L.,Lactuca,False,,29,21,4,4,9,20,cc-by-sa
+1363872,Barbarea intermedia Boreau,Barbarea,False,0.012776699029126214,30,20,5,5,18,12,cc-by-sa
+1359528,Trifolium subterraneum L.,Trifolium,False,0.17306593532167752,31,21,5,5,18,13,cc-by-sa
+1362080,Nymphaea lotus L.,Nymphaea,False,,31,23,4,4,23,8,cc-by-sa
+1392690,Hebe brachysiphon Summerh.,Hebe,False,0.0,31,23,4,4,22,9,cc-by-sa
+1360427,Oldenlandia corymbosa L.,Oldenlandia,False,0.7256724834260458,32,24,4,4,9,23,cc-by-sa
+1370279,Gymnosporia putterlickioides Loes.,Gymnosporia,False,0.7896995708154506,32,22,5,5,11,21,cc-by-sa
+1379513,Hypericum annulatum Moris,Hypericum,False,,32,24,4,4,23,9,cc-by-sa
+1363463,Cenchrus ciliaris L.,Cenchrus,False,0.7065640098990454,33,23,5,5,25,8,cc-by-sa
+1419086,Garrya elliptica Douglas ex Lindl.,Garrya,False,0.003443081557994405,33,23,5,5,15,18,cc-by-sa
+1406426,Crotalaria pallida Aiton,Crotalaria,False,0.6637315564017134,35,25,5,5,22,13,cc-by-sa
+1392653,Gomphocarpus fruticosus (L.) R.Br.,Gomphocarpus,False,0.48262073208243617,37,25,6,6,25,12,cc-by-sa
+1363772,Acacia pycnantha Benth.,Acacia,False,,38,26,6,6,20,18,cc-by-sa
+1394508,Anemone trifolia L.,Anemone,False,0.0,38,28,5,5,29,9,cc-by-sa
+1392093,Erucastrum gallicum (Willd.) O.E.Schulz,Erucastrum,False,0.0011152852782343272,39,27,6,6,14,25,cc-by-sa
+1409746,Lactuca floridana (L.) Gaertn.,Lactuca,False,0.004970414201183432,39,29,5,5,9,30,cc-by-sa
+1412413,Lactuca canadensis L.,Lactuca,False,0.010280444478040668,40,28,6,6,9,31,cc-by-sa
+1412662,Maianthemum stellatum (L.) Link,Maianthemum,False,0.001087557955391044,40,28,6,6,19,21,cc-by-sa
+1397349,Chaerophyllum bulbosum L.,Chaerophyllum,False,0.00011469643676403119,41,29,6,6,27,14,cc-by-sa
+1398130,Hypericum olympicum L.,Hypericum,False,,41,29,6,6,32,9,cc-by-sa
+1358704,Hypericum montanum L.,Hypericum,False,,43,29,7,7,31,12,cc-by-sa
+1359510,Trifolium ochroleucon Huds.,Trifolium,False,0.00012566366121076938,45,33,6,6,36,9,cc-by-sa
+1403826,Pereskia bleo (Kunth) DC.,Pereskia,False,,45,31,7,7,35,10,cc-by-sa
+1413391,Pyracantha coccinea M. Roem.,Pyracantha,False,0.00680165985460672,45,33,6,6,15,30,cc-by-sa
+1391250,Cirsium tuberosum (L.) All.,Cirsium,False,0.0,48,34,7,7,36,12,cc-by-sa
+1393823,Mercurialis tomentosa L.,Mercurialis,False,0.00021795989537925023,48,34,7,7,9,39,cc-by-sa
+1394383,Pancratium illyricum L.,Pancratium,False,0.0,48,34,7,7,39,9,cc-by-sa
+1434011,Liriope muscari (Decne.) L.H. Bailey,Liriope,False,0.17422758100979654,49,35,7,7,23,26,cc-by-sa
+1420792,Daphne odora Thunb.,Daphne,False,0.3779697624190065,51,35,8,8,33,18,cc-by-sa
+1389966,Cenchrus longisetus M.C.Johnst.,Cenchrus,False,0.3915441176470588,52,36,8,8,40,12,cc-by-sa
+1408214,Hypericum lanceolatum Lam.,Hypericum,False,,52,36,8,8,31,21,cc-by-sa
+1389567,Acacia saligna (Labill.) H.L.Wendl.,Acacia,False,,53,37,8,8,35,18,cc-by-sa
+1391648,Daphne alpina L.,Daphne,False,0.0,53,37,8,8,31,22,cc-by-sa
+1399920,Angelica atropurpurea L.,Angelica,False,0.0001576789656259855,53,37,8,8,35,18,cc-by-sa
+1402811,Crotalaria retusa L.,Crotalaria,False,0.6766769576199831,53,37,8,8,42,11,cc-by-sa
+1413757,Sedum ternatum Michx.,Sedum,False,,53,37,8,8,11,42,cc-by-sa
+1418984,Lupinus albifrons Benth.,Lupinus,False,,57,39,9,9,46,11,cc-by-sa
+1412410,Anemone virginiana L.,Anemone,False,0.0001488316713796696,58,40,9,9,38,20,cc-by-sa
+1664348,Hepatica nobilis Mill.,Hepatica,False,5.172021432856818e-05,58,40,9,9,50,8,cc-by-sa
+1408979,Fragaria chiloensis (L.) Mill.,Fragaria,False,0.015312353217472992,59,43,8,8,16,43,cc-by-sa
+1358760,Lavandula multifida L.,Lavandula,False,0.0007726482518833301,61,41,10,10,37,24,cc-by-sa
+1400104,Acacia baileyana F.Muell.,Acacia,False,,61,43,9,9,13,48,cc-by-sa
+1412697,Mertensia maritima (L.) Gray,Mertensia,False,0.00035174111853675694,62,44,9,9,19,43,cc-by-sa
+1411760,Diervilla lonicera Mill.,Diervilla,False,0.0,65,47,9,9,29,36,cc-by-sa
+1393257,Hypericum richeri Vill.,Hypericum,False,0.0,66,46,10,10,57,9,cc-by-sa
+1358099,Sedum brevifolium DC.,Sedum,False,,67,47,10,10,35,32,cc-by-sa
+1358132,Sedum rubens L.,Sedum,False,,67,47,10,10,35,32,cc-by-sa
+1363703,Lupinus albus L.,Lupinus,False,0.0541142908085941,68,46,11,11,31,37,cc-by-sa
+1395722,Sagittaria sagittifolia L.,Sagittaria,False,0.0058039925308487495,69,47,11,11,24,45,cc-by-sa
+1412833,Nymphaea odorata Aiton,Nymphaea,False,0.012431432373657049,69,47,11,11,59,10,cc-by-sa
+1394455,Pelargonium peltatum (L.) Aiton,Pelargonium,False,0.062402496099843996,70,48,11,11,60,10,cc-by-sa
+1392361,Fragaria moschata Weston,Fragaria,False,0.0005819592628516004,71,49,11,11,27,44,cc-by-sa
+1397305,Alcea biennis Winterl,Alcea,False,0.0008488964346349745,71,51,10,10,28,43,cc-by-sa
+1391110,Chaerophyllum aureum L.,Chaerophyllum,False,2.355657110550988e-05,72,50,11,11,44,28,cc-by-sa
+1397491,Sedum atratum L.,Sedum,False,,72,50,11,11,57,15,cc-by-sa
+1358749,Lamium flexuosum Ten.,Lamium,False,0.0003875968992248062,73,51,11,11,51,22,cc-by-sa
+1389492,Tagetes tenuifolia Cav.,Tagetes,False,0.6636398032538782,73,51,11,11,64,9,cc-by-sa
+1398274,Adenostyles leucophylla (Willd.) Rchb.,Adenostyles,False,0.0,73,51,11,11,64,9,cc-by-sa
+1363700,Lupinus luteus L.,Lupinus,False,0.014355077052987122,74,50,12,12,57,17,cc-by-sa
+1411834,Duchesnea indica (Andrews) Teschem.,Duchesnea,False,0.18291818825966097,75,53,11,11,35,40,cc-by-sa
+1393981,Nymphoides peltata (S.G.Gmel.) Kuntze,Nymphoides,False,0.014086405607602616,76,54,11,11,49,27,cc-by-sa
+1389553,Acacia melanoxylon R.Br.,Acacia,False,0.8023355904969586,78,54,12,12,10,68,cc-by-sa
+1398447,Aralia elata (Miq.) Seem.,Aralia,False,0.0612956942351915,78,56,11,11,15,63,cc-by-sa
+1356469,Achyranthes aspera L.,Achyranthes,False,0.5627411712987838,80,56,12,12,44,36,cc-by-sa
+1363491,Phalaris canariensis L.,Phalaris,False,0.030069983849880796,80,56,12,12,48,32,cc-by-sa
+1393850,Moehringia muscosa L.,Moehringia,False,2.8485159232040106e-05,80,56,12,12,72,8,cc-by-sa
+1393254,Hypericum pulchrum L.,Hypericum,False,1.8218144056937773e-05,81,57,12,12,58,23,cc-by-sa
+1389630,Perovskia abrotanoides Kar.,Perovskia,False,0.10983606557377049,82,58,12,12,63,19,cc-by-sa
+1392096,Erucastrum nasturtiifolium (Poir.) O.E.Schulz,Erucastrum,False,0.00021303792074989347,82,56,13,13,51,31,cc-by-sa
+1393789,Melilotus altissimus Thuill.,Melilotus,False,0.0002040248539367523,82,56,13,13,72,10,cc-by-sa
+1393980,Nymphaea candida C.Presl,Nymphaea,False,0.0007618194039883487,82,56,13,13,71,11,cc-by-sa
+1395721,Sagittaria latifolia Willd.,Sagittaria,False,0.0234009360374415,83,57,13,13,45,38,cc-by-sa
+1516297,Othonna capensis L.H.Bailey,Othonna,False,0.024390243902439025,84,58,13,13,11,73,cc-by-sa
+1357331,Calendula stellata Cav.,Calendula,False,0.0,85,59,13,13,73,12,cc-by-sa
+1358103,Sedum cepaea L.,Sedum,False,,85,59,13,13,27,58,cc-by-sa
+1550692,Pelargonium × hortorum L.H. Bailey,Pelargonium,False,0.2013802810983424,86,62,12,12,63,23,cc-by-sa
+1358101,Sedum caeruleum L.,Sedum,False,0.0,87,61,13,13,59,28,cc-by-sa
+1356901,Moehringia trinervia (L.) Clairv.,Moehringia,False,0.00020743978402888965,88,62,13,13,46,42,cc-by-sa
+1646149,Hebe andersonii (Lindl. & J. Paxton) Cockayne,Hebe,False,0.13725490196078433,89,63,13,13,60,29,cc-by-sa
+1357506,Cirsium monspessulanum (L.) Hill,Cirsium,False,0.0,91,63,14,14,53,38,cc-by-sa
+1399231,Lamium orvala L.,Lamium,False,0.0,93,65,14,14,75,18,cc-by-sa
+1364158,Tagetes minuta L.,Tagetes,False,0.39177885243758986,95,67,14,14,27,68,cc-by-sa
+1392658,Guizotia abyssinica (L.f.) Cass.,Guizotia,False,0.07077291472661966,95,67,14,14,74,21,cc-by-sa
+1364000,Duchesnea indica (Jacks.) Focke,Duchesnea,False,0.18291818825966097,96,68,14,14,49,47,cc-by-sa
+1358112,Sedum hirsutum All.,Sedum,False,6.075703262652652e-05,97,67,15,15,47,50,cc-by-sa
+1364161,Calendula arvensis (Vaill.) L.,Calendula,False,0.008733929569591951,99,69,15,15,81,18,cc-by-sa
+1363770,Acacia mearnsii De Wild.,Acacia,False,0.6640943810819295,100,70,15,15,42,58,cc-by-sa
+1396161,Sedum ochroleucum Chaix,Sedum,False,,102,72,15,15,53,49,cc-by-sa
+1408788,Trimezia martinicensis (Jacq.) Herb.,Trimezia,False,,102,72,15,15,94,8,cc-by-sa
+1394405,Papaver pseudoorientale (Fedde) Medw.,Papaver,False,,103,73,15,15,94,9,cc-by-sa
+1372016,Morinda citrifolia L.,Morinda,False,,104,72,16,16,27,77,cc-by-sa
+1392689,Hebe andersonii (Lindl. & Paxton) Cockayne,Hebe,False,,104,72,16,16,58,46,cc-by-sa
+1393654,Lupinus arboreus Sims,Lupinus,False,,104,72,16,16,54,50,cc-by-sa
+1360618,Berula erecta (Huds.) Coville,Berula,False,,105,75,15,15,29,76,cc-by-sa
+1360835,Centranthus calcitrapae (L.) Dufr.,Centranthus,False,,105,73,16,16,87,18,cc-by-sa
+1393418,Lactuca viminea (L.) J.Presl & C.Presl,Lactuca,False,,105,73,16,16,91,14,cc-by-sa
+1363769,Acacia longifolia (Andrews) Willd.,Acacia,False,,106,74,16,16,53,53,cc-by-sa
+1391235,Cirsium rivulare (Jacq.) All.,Cirsium,False,,108,76,16,16,92,16,cc-by-sa
+1391868,Empetrum nigrum L.,Empetrum,False,,108,76,16,16,9,99,cc-by-sa
+1419115,Pelargonium x hortorum L.H. Bailey,Pelargonium,False,,108,76,16,16,88,20,cc-by-sa
+1529242,Sedum makinoi Maxim.,Sedum,False,,109,77,16,16,9,100,cc-by-sa
+1363117,Tradescantia cerinthoides Kunth,Tradescantia,False,,110,76,17,17,65,45,cc-by-sa
+1396156,Sedum kamtschaticum Fisch. & C.A.Mey.,Sedum,False,,110,76,17,17,66,44,cc-by-sa
+1363127,Papaver hybridum L.,Papaver,False,,111,77,17,17,100,11,cc-by-sa
+1358701,Hypericum humifusum L.,Hypericum,False,,114,80,17,17,98,16,cc-by-sa
+1396143,Sedum sarmentosum Bunge,Sedum,False,,114,80,17,17,45,69,cc-by-sa
+1403967,Cereus hexagonus (L.) Mill.,Cereus,False,,116,82,17,17,63,53,cc-by-sa
+1358699,Hypericum hircinum L.,Hypericum,False,,117,81,18,18,92,25,cc-by-sa
+1396133,Diascia rigescens E.Mey. ex Benth.,Diascia,False,,119,83,18,18,109,10,cc-by-sa
+1356278,Trifolium fragiferum L.,Trifolium,False,,121,85,18,18,94,27,cc-by-sa
+1360148,Adonis annua L.,Adonis,False,,122,86,18,18,110,12,cc-by-sa
+1371691,Mussaenda erythrophylla Schumach. & Thonn.,Mussaenda,False,,123,85,19,19,90,33,cc-by-sa
+1391193,Cirsium erisithales (Jacq.) Scop.,Cirsium,False,,123,85,19,19,90,33,cc-by-sa
+1393933,Narthecium ossifragum (L.) Huds.,Narthecium,False,,123,87,18,18,114,9,cc-by-sa
+1398480,Clethra alnifolia L.,Clethra,False,,124,88,18,18,70,54,cc-by-sa
+1420496,Mussaenda philippica A.Rich.,Mussaenda,False,,124,86,19,19,105,19,cc-by-sa
+1358519,Acalypha virginica L.,Acalypha,False,,126,88,19,19,10,116,cc-by-sa
+1362489,Sedum anglicum Huds.,Sedum,False,,127,89,19,19,102,25,cc-by-sa
+1363451,Secale cereale L.,Secale,False,,127,89,19,19,73,54,cc-by-sa
+1529124,Sedum clavatum R.T. Clausen,Sedum,False,,127,89,19,19,11,116,cc-by-sa
+1389442,Atocion rupestre (L.) B.Oxelman,Atocion,False,,130,90,20,20,119,11,cc-by-sa
+1395391,Holodiscus discolor (Pursh) Maxim.,Holodiscus,False,,130,92,19,19,83,47,cc-by-sa
+1412699,Mertensia virginica (L.) Pers. ex Link,Mertensia,False,,130,92,19,19,116,14,cc-by-sa
+1357652,Hyoseris radiata L.,Hyoseris,False,,132,92,20,20,64,68,cc-by-sa
+1394164,Ophrys passionis Sennen,Ophrys,False,,134,94,20,20,125,9,cc-by-sa
+1394394,Anemone apennina L.,Anemone,False,,134,94,20,20,123,11,cc-by-sa
+1413002,Aralia nudicaulis L.,Aralia,False,,134,92,21,21,17,117,cc-by-sa
+1503981,Cirsium palustre (L.) Coss. ex Scop.,Cirsium,False,,135,93,21,21,117,18,cc-by-sa
+1361891,Falcaria vulgaris Bernh.,Falcaria,False,,136,96,20,20,81,55,cc-by-sa
+1488026,Pilosocereus pachycladus F. Ritter,Pilosocereus,False,,137,97,20,20,8,129,cc-by-sa
+1418140,Lithops pseudotruncatella N.E.Br.,Lithops,False,,138,98,20,20,16,122,cc-by-sa
+1376726,Peperomia pellucida (L.) Kunth,Peperomia,False,,140,98,21,21,11,129,cc-by-sa
+1405686,Breynia disticha J.R.Forst. & G.Forst.,Breynia,False,,140,98,21,21,9,131,cc-by-sa
+1412418,Lamium maculatum L.,Lamium,False,,141,99,21,21,67,74,cc-by-sa
+1400081,Adonis vernalis L.,Adonis,False,,143,101,21,21,129,14,cc-by-sa
+1397551,Trifolium badium Schreb.,Trifolium,False,,144,100,22,22,133,11,cc-by-sa
+1358710,Hypericum tetrapterum Fr.,Hypericum,False,,145,101,22,22,99,46,cc-by-sa
+1397209,Viscaria vulgaris Bernh.,Viscaria,False,,145,103,21,21,136,9,cc-by-sa
+1362434,Centranthus angustifolius (Mill.) DC.,Centranthus,False,,149,103,23,23,132,17,cc-by-sa
+1422105,Tradescantia zebrina hort. ex Bosse,Tradescantia,False,,149,105,22,22,8,141,cc-by-sa
+1412337,Anemone canadensis L.,Anemone,False,,151,105,23,23,114,37,cc-by-sa
+1414058,Tradescantia ohiensis Raf.,Tradescantia,False,,152,106,23,23,139,13,cc-by-sa
+1408688,Acalypha hispida Burm.f.,Acalypha,False,,155,109,23,23,120,35,cc-by-sa
+1389230,Phedimus aizoon (L.) 't Hart,Phedimus,False,,157,109,24,24,106,51,cc-by-sa
+1396842,Trifolium alpestre L.,Trifolium,False,,158,110,24,24,140,18,cc-by-sa
+1411524,Conoclinium coelestinum (L.) DC.,Conoclinium,False,,159,111,24,24,135,24,cc-by-sa
+1385701,Couroupita guianensis Aubl.,Couroupita,False,,167,117,25,25,155,12,cc-by-sa
+1412661,Maianthemum racemosum (L.) Link,Maianthemum,False,,168,118,25,25,48,120,cc-by-sa
+1363750,Melilotus officinalis (L.) Pall.,Melilotus,False,,171,119,26,26,151,20,cc-by-sa
+1419173,Loropetalum chinense (R. Br.) Oliv.,Loropetalum,False,,173,121,26,26,120,53,cc-by-sa
+1529265,Sedum nussbaumerianum Bitter,Sedum,False,,173,121,26,26,11,162,cc-by-sa
+1359486,Trifolium aureum Pollich,Trifolium,False,,174,122,26,26,155,19,cc-by-sa
+1363613,Sedum hispanicum L.,Sedum,False,,174,122,26,26,79,95,cc-by-sa
+1412659,Maianthemum canadense Desf.,Maianthemum,False,,175,123,26,26,74,101,cc-by-sa
+1355959,Pelargonium peltatum (L.) L'Hér.,Pelargonium,False,,178,124,27,27,120,58,cc-by-sa
+1359519,Trifolium resupinatum L.,Trifolium,False,,178,124,27,27,160,18,cc-by-sa
+1361745,Myosoton aquaticum (L.) Moench,Myosoton,False,,178,126,26,26,148,30,cc-by-sa
+1393846,Moehringia ciliata (Scop.) Dalla Torre,Moehringia,False,,178,124,27,27,160,18,cc-by-sa
+1360759,Meum athamanticum Jacq.,Meum,False,,179,127,26,26,70,109,cc-by-sa
+1667445,Fragaria × ananassa (Duchesne ex Weston) Duchesne ex Rozier,Fragaria,False,,179,125,27,27,44,135,cc-by-sa
+1389044,Lactuca plumieri (L.) Gren. & Godr.,Lactuca,False,,187,131,28,28,141,46,cc-by-sa
+1389921,Erechtites hieraciifolius (L.) Raf. ex DC.,Erechtites,False,,187,131,28,28,45,142,cc-by-sa
+1394453,Pelargonium x hybridum (L.) Aiton,Pelargonium,False,,194,136,29,29,179,15,cc-by-sa
+1432786,Calendula arvensis M.Bieb.,Calendula,False,,196,136,30,30,159,37,cc-by-sa
+1391649,Daphne cneorum L.,Daphne,False,,197,137,30,30,186,11,cc-by-sa
+1488171,Selenicereus anthonyanus (Alexander) D.R. Hunt,Selenicereus,False,,198,138,30,30,31,167,cc-by-sa
+1358108,Sedum forsterianum Sm.,Sedum,False,,200,140,30,30,27,173,cc-by-sa
+1359497,Trifolium hybridum L.,Trifolium,False,,200,140,30,30,157,43,cc-by-sa
+1391209,Cirsium heterophyllum (L.) Hill,Cirsium,False,,200,140,30,30,162,38,cc-by-sa
+1359508,Trifolium montanum L.,Trifolium,False,,203,143,30,30,181,22,cc-by-sa
+1364165,Carthamus tinctorius L.,Carthamus,False,,204,142,31,31,179,25,cc-by-sa
+1405641,Asystasia gangetica (L.) T.Anderson,Asystasia,False,,206,144,31,31,179,27,cc-by-sa
+1397403,Honckenya peploides (L.) Ehrh.,Honckenya,False,,208,144,32,32,17,191,cc-by-sa
+1397311,Anemone narcissiflora L.,Anemone,False,,220,154,33,33,206,14,cc-by-sa
+1419334,Liriope muscari (Decne.) L.H.Bailey,Liriope,False,,221,153,34,34,171,50,cc-by-sa
+1398513,Hypericum patulum Thunb.,Hypericum,False,,222,156,33,33,168,54,cc-by-sa
+1360550,Hyoscyamus albus L.,Hyoscyamus,False,,226,158,34,34,148,78,cc-by-sa
+1392094,Erucastrum incanum (L.) W.D.J.Koch,Erucastrum,False,,229,159,35,35,165,64,cc-by-sa
+1397352,Cirsium spinosissimum (L.) Scop.,Cirsium,False,,229,159,35,35,170,59,cc-by-sa
+1392777,Hippophae rhamnoides L.,Hippophae,False,,238,168,35,35,8,230,cc-by-sa
+1389231,Phedimus spurius (M.Bieb) 't Hart,Phedimus,False,,241,169,36,36,63,178,cc-by-sa
+1389297,Cereus jamacaru DC.,Cereus,False,,243,169,37,37,45,198,cc-by-sa
+1359622,Althaea cannabina L.,Althaea,False,,245,171,37,37,180,65,cc-by-sa
+1360555,Hyoscyamus niger L.,Hyoscyamus,False,,245,171,37,37,191,54,cc-by-sa
+1391112,Chaerophyllum hirsutum L.,Chaerophyllum,False,,248,174,37,37,146,102,cc-by-sa
+1399145,Cucurbita moschata Duchesne,Cucurbita,False,,250,176,37,37,36,214,cc-by-sa
+1363126,Papaver argemone L.,Papaver,False,,252,178,37,37,216,36,cc-by-sa
+1409185,Aphelandra squarrosa Nees,Aphelandra,False,,252,178,37,37,30,222,cc-by-sa
+1397313,Angelica archangelica L.,Angelica,False,,255,179,38,38,141,114,cc-by-sa
+1397387,Fragaria viridis Weston,Fragaria,False,,255,179,38,38,122,133,cc-by-sa
+1396713,Telekia speciosa (Schreb.) Baumg.,Telekia,False,,256,180,38,38,182,74,cc-by-sa
+1363778,Acacia retinodes Schltdl.,Acacia,False,,260,182,39,39,135,125,cc-by-sa
+1405685,Acalypha wilkesiana Müll.Arg.,Acalypha,False,,260,182,39,39,23,237,cc-by-sa
+1361850,Trifolium rubens L.,Trifolium,False,,265,187,39,39,236,29,cc-by-sa
+1362927,Tradescantia pallida (Rose) D.R. Hunt,Tradescantia,False,,265,185,40,40,78,187,cc-by-sa
+1391963,Epipactis palustris (L.) Crantz,Epipactis,False,,266,186,40,40,257,9,cc-by-sa
+1397514,Trifolium medium L.,Trifolium,False,,267,187,40,40,213,54,cc-by-sa
+1357379,Carthamus lanatus L.,Carthamus,False,,271,189,41,41,198,73,cc-by-sa
+1358700,Hypericum hirsutum L.,Hypericum,False,,274,192,41,41,162,112,cc-by-sa
+1389307,Sedum pachyphyllum Rose,Sedum,False,,275,193,41,41,16,259,cc-by-sa
+1363871,Barbarea verna (Mill.) Asch.,Barbarea,False,,277,195,41,41,208,69,cc-by-sa
+1397351,Cirsium acaulon (L.) Scop.,Cirsium,False,,282,196,43,43,225,57,cc-by-sa
+1396165,Sedum sexangulare L.,Sedum,False,,283,197,43,43,126,157,cc-by-sa
+1398111,Adenostyles alliariae (Gouan) A.Kern.,Adenostyles,False,,285,199,43,43,206,79,cc-by-sa
+1497667,Tradescantia sillamontana Matuda,Tradescantia,False,,286,200,43,43,59,227,cc-by-sa
+1413755,Sedum spathulifolium Hook.,Sedum,False,,295,207,44,44,63,232,cc-by-sa
+1409215,Peperomia caperata Yunck.,Peperomia,False,,299,209,45,45,14,285,cc-by-sa
+1393450,Lathraea squamaria L.,Lathraea,False,,302,212,45,45,294,8,cc-by-sa
+1408045,Alocasia macrorrhizos (L.) G.Don,Alocasia,False,,303,213,45,45,9,294,cc-by-sa
+1398326,Calycanthus floridus L.,Calycanthus,False,,309,217,46,46,243,66,cc-by-sa
+1357705,Limbarda crithmoides (L.) Dumort.,Limbarda,False,,310,218,46,46,175,135,cc-by-sa
+1393250,Hypericum maculatum Crantz,Hypericum,False,,313,219,47,47,250,63,cc-by-sa
+1356816,Vaccaria hispanica (Mill.) Rauschert,Vaccaria,False,,314,220,47,47,291,23,cc-by-sa
+1363021,Cenchrus setaceus (Forssk.) Morrone,Cenchrus,False,,317,221,48,48,187,130,cc-by-sa
+1396843,Trifolium alpinum L.,Trifolium,False,,319,223,48,48,299,20,cc-by-sa
+1359483,Trifolium angustifolium L.,Trifolium,False,,322,226,48,48,280,42,cc-by-sa
+1393414,Lactuca alpina (L.) Benth. & Hook.f.,Lactuca,False,,329,231,49,49,288,41,cc-by-sa
+1394399,Papaver alpinum L.,Papaver,False,,331,233,49,49,310,21,cc-by-sa
+1361024,Butomus umbellatus L.,Butomus,False,,332,234,49,49,323,9,cc-by-sa
+1356428,Osmunda regalis L.,Osmunda,False,,337,237,50,50,23,314,cc-by-sa
+1391797,Dryas octopetala L.,Dryas,False,,342,240,51,51,288,54,cc-by-sa
+1359525,Trifolium stellatum L.,Trifolium,False,,343,241,51,51,323,20,cc-by-sa
+1399783,Schefflera actinophylla Harms,Schefflera,False,,345,241,52,52,11,334,cc-by-sa
+1355868,Lactuca virosa L.,Lactuca,False,,365,255,55,55,10,355,cc-by-sa
+1393725,Maianthemum bifolium (L.) F.W.Schmidt,Maianthemum,False,,367,255,56,56,170,197,cc-by-sa
+1363110,Anemone hortensis L.,Anemone,False,,380,266,57,57,372,8,cc-by-sa
+1529328,Sedum rubrotinctum R.T. Clausen,Sedum,False,,381,267,57,57,18,363,cc-by-sa
+1393946,"Neotinea ustulata (L.) R.M.Bateman, Pridgeon & M.W.Chase",Neotinea,False,,382,268,57,57,373,9,cc-by-sa
+1391953,Epipactis atrorubens (Hoffm.) Besser,Epipactis,False,,388,272,58,58,361,27,cc-by-sa
+1361666,Ophrys scolopax Cav.,Ophrys,False,,394,276,59,59,386,8,cc-by-sa
+1393466,Lavandula latifolia Medik.,Lavandula,False,,417,291,63,63,117,300,cc-by-sa
+1363129,Papaver dubium L.,Papaver,False,,430,302,64,64,394,36,cc-by-sa
+1397303,Adenostyles alpina (L.) Bluff & Fingerh.,Adenostyles,False,,436,306,65,65,369,67,cc-by-sa
+1362954,Schefflera actinophylla (Endl.) Harms,Schefflera,False,,446,312,67,67,32,414,cc-by-sa
+1359197,Galega officinalis L.,Galega,False,,463,325,69,69,349,114,cc-by-sa
+1360811,Thapsia villosa L.,Thapsia,False,,492,346,73,73,349,143,cc-by-sa
+1393449,Lathraea clandestina L.,Lathraea,False,,494,344,75,75,477,17,cc-by-sa
+1398444,Anemone blanda Schott & Kotschy,Anemone,False,,504,352,76,76,472,32,cc-by-sa
+1356692,Lithodora fruticosa (L.) Griseb.,Lithodora,False,,514,358,78,78,457,57,cc-by-sa
+1394504,Anemone sylvestris L.,Anemone,False,,516,362,77,77,462,54,cc-by-sa
+1397312,Anemone ranunculoides L.,Anemone,False,,524,368,78,78,454,70,cc-by-sa
+1409292,Dendrobium nobile Lindl.,Dendrobium,False,,527,369,79,79,344,183,cc-by-sa
+1363699,Lupinus angustifolius L.,Lupinus,False,,535,373,81,81,325,210,cc-by-sa
+1529081,Sedum adolphii Raym.-Hamet,Sedum,False,,536,374,81,81,44,492,cc-by-sa
+1392695,Hebe salicifolia (G.Forst.) Pennell,Hebe,False,,550,386,82,82,414,136,cc-by-sa
+1418547,Sedum morganianum E.Walther,Sedum,False,,552,386,83,83,27,525,cc-by-sa
+1397420,Lactuca perennis L.,Lactuca,False,,553,387,83,83,463,90,cc-by-sa
+1363490,Phalaris arundinacea L.,Phalaris,False,,560,392,84,84,93,467,cc-by-sa
+1358150,Alliaria petiolata (M. Bieb.) Cavara & Grande,Alliaria,False,,577,403,87,87,232,345,cc-by-sa
+1420863,Kniphofia uvaria (L.) Oken,Kniphofia,False,,591,413,89,89,567,24,cc-by-sa
+1357677,Lactuca muralis (L.) Gaertn.,Lactuca,False,,603,421,91,91,272,331,cc-by-sa
+1363749,Melilotus indicus (L.) All.,Melilotus,False,,618,432,93,93,478,140,cc-by-sa
+1391483,Cucurbita maxima Duchesne,Cucurbita,False,,642,448,97,97,211,431,cc-by-sa
+1391652,Daphne mezereum L.,Daphne,False,,645,451,97,97,474,171,cc-by-sa
+1421021,Sedum palmeri S. Watson,Sedum,False,,667,467,100,100,166,501,cc-by-sa
+1358105,Sedum dasyphyllum L.,Sedum,False,,673,471,101,101,191,482,cc-by-sa
+1359485,Trifolium arvense L.,Trifolium,False,,674,472,101,101,593,81,cc-by-sa
+1393792,Melilotus officinalis (L.) Lam.,Melilotus,False,,675,473,101,101,562,113,cc-by-sa
+1363737,Trifolium dubium Sibth.,Trifolium,False,,676,472,102,102,564,112,cc-by-sa
+1394489,Anemone pulsatilla L.,Anemone,False,,682,478,102,102,648,34,cc-by-sa
+1360590,Daphne laureola L.,Daphne,False,,685,479,103,103,97,588,cc-by-sa
+1398128,Sedum palmeri S.Watson,Sedum,False,,722,506,108,108,340,382,cc-by-sa
+1358751,Lamium hybridum Vill.,Lamium,False,,728,508,110,110,504,224,cc-by-sa
+1391226,Cirsium oleraceum (L.) Scop.,Cirsium,False,,728,508,110,110,437,291,cc-by-sa
+1360588,Daphne gnidium L.,Daphne,False,,740,518,111,111,303,437,cc-by-sa
+1360153,Anemone coronaria L.,Anemone,False,,750,526,112,112,714,36,cc-by-sa
+1409295,Nandina domestica Thunb.,Nandina,False,,754,528,113,113,151,603,cc-by-sa
+1359488,Trifolium campestre Schreb.,Trifolium,False,,765,535,115,115,684,81,cc-by-sa
+1361759,Cirsium palustre (L.) Scop.,Cirsium,False,,772,540,116,116,619,153,cc-by-sa
+1356126,Lavandula dentata L.,Lavandula,False,,776,542,117,117,338,438,cc-by-sa
+1358605,Mercurialis perennis L.,Mercurialis,False,,787,551,118,118,136,651,cc-by-sa
+1390637,Calendula arvensis L.,Calendula,False,,787,551,118,118,665,122,cc-by-sa
+1359625,Althaea officinalis L.,Althaea,False,,794,556,119,119,495,299,cc-by-sa
+1360998,Anthericum liliago L.,Anthericum,False,,805,563,121,121,765,40,cc-by-sa
+1364172,Lactuca sativa L.,Lactuca,False,,806,564,121,121,28,778,cc-by-sa
+1360671,Chaerophyllum temulum L.,Chaerophyllum,False,,840,588,126,126,508,332,cc-by-sa
+1391192,Cirsium eriophorum (L.) Scop.,Cirsium,False,,846,592,127,127,669,177,cc-by-sa
+1363336,Smilax aspera L.,Smilax,False,,869,607,131,131,91,778,cc-by-sa
+1356111,Lamium amplexicaule L.,Lamium,False,,898,628,135,135,632,266,cc-by-sa
+1398515,Hypericum x hidcoteense Hilling ex Geerinck,Hypericum,False,,906,634,136,136,761,145,cc-by-sa
+1394404,Papaver orientale L.,Papaver,False,,940,658,141,141,778,162,cc-by-sa
+1355978,Pelargonium zonale (L.) L'Hér.,Pelargonium,False,,972,680,146,146,712,260,cc-by-sa
+1362294,Epipactis helleborine (L.) Crantz,Epipactis,False,,974,682,146,146,544,430,cc-by-sa
+1359669,Nymphaea alba L.,Nymphaea,False,,993,695,149,149,823,170,cc-by-sa
+1369960,Tradescantia spathacea Sw.,Tradescantia,False,,1016,710,153,153,51,965,cc-by-sa
+1358689,Hypericum androsaemum L.,Hypericum,False,,1050,734,158,158,610,440,cc-by-sa
+1363764,Acacia dealbata Link,Acacia,False,,1050,736,157,157,309,741,cc-by-sa
+1393393,Kniphofia uvaria (L.) Hook.,Kniphofia,False,,1060,742,159,159,1014,46,cc-by-sa
+1360978,Pancratium maritimum L.,Pancratium,False,,1078,754,162,162,972,106,cc-by-sa
+1364159,Tagetes patula L.,Tagetes,False,,1104,774,165,165,981,123,cc-by-sa
+1394454,Pelargonium inquinans (L.) Aiton,Pelargonium,False,,1112,778,167,167,884,228,cc-by-sa
+1356382,Dryopteris filix-mas (L.) Schott,Dryopteris,False,,1113,779,167,167,15,1098,cc-by-sa
+1356075,Tradescantia fluminensis Vell.,Tradescantia,False,,1130,792,169,169,261,869,cc-by-sa
+1400100,Barbarea vulgaris R.Br.,Barbarea,False,,1159,813,173,173,896,263,cc-by-sa
+1418146,Fittonia albivenis (Lindl. ex Veitch) Brummitt,Fittonia,False,,1173,821,176,176,21,1152,cc-by-sa
+1396824,Tradescantia virginiana L.,Tradescantia,False,,1231,863,184,184,1129,102,cc-by-sa
+1384485,Cucurbita pepo L.,Cucurbita,False,,1283,899,192,192,413,870,cc-by-sa
+1355990,Mercurialis annua L.,Mercurialis,False,,1320,924,198,198,240,1080,cc-by-sa
+1357635,Helminthotheca echioides (L.) Holub,Helminthotheca,False,,1360,952,204,204,597,763,cc-by-sa
+1394382,Anemone alpina L.,Anemone,False,,1418,992,213,213,1340,78,cc-by-sa
+1362490,Sedum rupestre L.,Sedum,False,,1431,1003,214,214,648,783,cc-by-sa
+1359498,Trifolium incarnatum L.,Trifolium,False,,1438,1006,216,216,1341,97,cc-by-sa
+1356257,Melilotus albus Medik.,Melilotus,False,,1485,1041,222,222,1143,342,cc-by-sa
+1361656,Ophrys apifera Huds.,Ophrys,False,,1641,1149,246,246,1615,26,cc-by-sa
+1358133,Sedum sediforme (Jacq.) Pau,Sedum,False,,1655,1159,248,248,620,1035,cc-by-sa
+1358766,Lavandula stoechas L.,Lavandula,False,,1672,1172,250,250,1369,303,cc-by-sa
+1408961,Schefflera arboricola (Hayata) Merr.,Schefflera,False,,1678,1176,251,251,36,1642,cc-by-sa
+1398592,Perovskia atriplicifolia Benth.,Perovskia,False,,1764,1236,264,264,1242,522,cc-by-sa
+1356781,Humulus lupulus L.,Humulus,False,,1774,1240,267,267,484,1290,cc-by-sa
+1394591,Angelica sylvestris L.,Angelica,False,,1835,1283,276,276,1218,617,cc-by-sa
+1393423,Lamium album L.,Lamium,False,,1842,1290,276,276,1222,620,cc-by-sa
+1358094,Sedum acre L.,Sedum,False,,1848,1292,278,278,1197,651,cc-by-sa
+1393425,Lamium maculatum (L.) L.,Lamium,False,,1860,1302,279,279,1421,439,cc-by-sa
+1355932,Pelargonium graveolens L'Hér.,Pelargonium,False,,1891,1325,283,283,990,901,cc-by-sa
+1385937,Zamioculcas zamiifolia (Lodd.) Engl.,Zamioculcas,False,,1892,1324,284,284,28,1864,cc-by-sa
+1435714,Pelargonium zonale (L.) L'Hér. ex Aiton,Pelargonium,False,,1922,1346,288,288,1409,513,cc-by-sa
+1408774,Tradescantia pallida (Rose) D.R.Hunt,Tradescantia,False,,1941,1357,292,292,504,1437,cc-by-sa
+1394994,Pyracantha coccinea M.Roem.,Pyracantha,False,,1951,1367,292,292,935,1016,cc-by-sa
+1398178,Tradescantia zebrina Bosse,Tradescantia,False,,1967,1377,295,295,64,1903,cc-by-sa
+1394420,Anemone hepatica L.,Anemone,False,,2083,1457,313,313,1665,418,cc-by-sa
+1393241,Hypericum calycinum L.,Hypericum,False,,2111,1477,317,317,1545,566,cc-by-sa
+1369887,Trachelospermum jasminoides (Lindl.) Lem.,Trachelospermum,False,,2130,1492,319,319,1500,630,cc-by-sa
+1393614,Liriodendron tulipifera L.,Liriodendron,False,,2143,1499,322,322,518,1625,cc-by-sa
+1359616,Punica granatum L.,Punica,False,,2201,1541,330,330,1303,898,cc-by-sa
+1397268,Anemone hupehensis (Lemoine) Lemoine,Anemone,False,,2374,1662,356,356,1933,441,cc-by-sa
+1367432,Lupinus polyphyllus Lindl.,Lupinus,False,,2388,1670,359,359,1738,650,cc-by-sa
+1409238,Anthurium andraeanum Linden ex André,Anthurium,False,,2451,1715,368,368,1633,818,cc-by-sa
+1363130,Papaver somniferum L.,Papaver,False,,2515,1759,378,378,1957,558,cc-by-sa
+1374048,Tagetes erecta L.,Tagetes,False,,2559,1791,384,384,2282,277,cc-by-sa
+1389510,Aegopodium podagraria L.,Aegopodium,False,,2607,1825,391,391,936,1671,cc-by-sa
+1358095,Sedum album L.,Sedum,False,,2687,1881,403,403,981,1706,cc-by-sa
+1397364,"Cymbalaria muralis P.Gaertn., B.Mey. & Scherb.",Cymbalaria,False,,2908,2036,436,436,1996,912,cc-by-sa
+1364164,Lapsana communis L.,Lapsana,False,,2997,2099,449,449,1294,1703,cc-by-sa
+1361824,Lavandula angustifolia Mill.,Lavandula,False,,3001,2101,450,450,1941,1060,cc-by-sa
+1361823,Lamium galeobdolon (L.) L.,Lamium,False,,3017,2113,452,452,1768,1249,cc-by-sa
+1364173,Lactuca serriola L.,Lactuca,False,,3207,2245,481,481,462,2745,cc-by-sa
+1363991,Fragaria vesca L.,Fragaria,False,,3373,2361,506,506,1438,1935,cc-by-sa
+1355936,Cirsium arvense (L.) Scop.,Cirsium,False,,3648,2552,548,548,2451,1197,cc-by-sa
+1363740,Trifolium repens L.,Trifolium,False,,3672,2570,551,551,2411,1261,cc-by-sa
+1394460,Anemone nemorosa L.,Anemone,False,,3727,2609,559,559,3182,545,cc-by-sa
+1363128,Papaver rhoeas L.,Papaver,False,,4255,2979,638,638,3692,563,cc-by-sa
+1359620,Alcea rosea L.,Alcea,False,,4664,3266,699,699,3316,1348,cc-by-sa
+1358752,Lamium purpureum L.,Lamium,False,,4951,3465,743,743,3485,1466,cc-by-sa
+1357330,Calendula officinalis L.,Calendula,False,,5238,3668,785,785,4543,695,cc-by-sa
+1359517,Trifolium pratense L.,Trifolium,False,,5560,3892,834,834,4828,732,cc-by-sa
+1355937,Cirsium vulgare (Savi) Ten.,Cirsium,False,,5570,3900,835,835,3167,2403,cc-by-sa
+1364099,Centranthus ruber (L.) DC.,Centranthus,False,,5846,4092,877,877,5018,828,cc-by-sa
+1356022,Hypericum perforatum L.,Hypericum,False,,6677,4673,1002,1002,5633,1044,cc-by-sa
+1392475,Alliaria petiolata (M.Bieb.) Cavara & Grande,Alliaria,False,,6938,4858,1040,1040,3683,3255,cc-by-sa
+1363227,Daucus carota L.,Daucus,False,,7752,5426,1163,1163,6239,1513,cc-by-sa

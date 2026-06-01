@@ -1,0 +1,16 @@
+species_id,consistency,memorization,diversity,organ_acc,name,flag
+1406486,0.492,0.0,0.629,1.0,Kigelia africana,low_consistency
+1416509,0.525,0.0,0.591,0.833,Nepenthes vieillardii,ok
+1376703,0.527,0.0,0.573,1.0,Petiveria alliacea,ok
+1409195,0.546,0.0,0.612,1.0,Pereskia aculeata,ok
+1419807,0.562,0.0,0.499,0.9,Vanilla planifolia,ok
+1408490,0.596,0.0,0.471,0.933,Pereskia grandifolia,ok
+1392654,0.6,0.0,0.515,1.0,Gomphocarpus physocarpus,ok
+1397598,0.615,0.0,0.628,1.0,Cobaea scandens,ok
+1408557,0.671,0.0,0.582,1.0,Pongamia pinnata,ok
+1618661,0.689,0.0,0.564,0.933,Dendrobium victoriae-reginae,ok
+1420787,0.718,0.033,0.49,0.9,Alocasia odora,ok
+1406863,0.738,0.0,0.405,0.567,Acalypha indica,low_organ_acc
+1356076,0.747,0.0,0.38,0.767,Tradescantia zebrina,ok
+1385700,0.772,0.0,0.58,1.0,Barringtonia asiatica,ok
+1384499,0.802,0.0,0.321,1.0,Lagenaria siceraria,ok

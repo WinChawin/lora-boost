@@ -1,0 +1,16 @@
+species_id,scientific_name,trigger,prompt_template,weights_path,n_train,flag
+1406486,Kigelia africana (Lam.) Benth.,sks_1406486,a photo of the {organ} of a sks_1406486 plant,models/lora/1406486/pytorch_lora_weights.safetensors,37,low_consistency
+1416509,Nepenthes vieillardii Hook. f.,sks_1416509,a photo of the {organ} of a sks_1416509 plant,models/lora/1416509/pytorch_lora_weights.safetensors,20,ok
+1376703,Petiveria alliacea L.,sks_1376703,a photo of the {organ} of a sks_1376703 plant,models/lora/1376703/pytorch_lora_weights.safetensors,28,ok
+1409195,Pereskia aculeata Mill.,sks_1409195,a photo of the {organ} of a sks_1409195 plant,models/lora/1409195/pytorch_lora_weights.safetensors,33,ok
+1419807,Vanilla planifolia Jacks. ex Andrews,sks_1419807,a photo of the {organ} of a sks_1419807 plant,models/lora/1419807/pytorch_lora_weights.safetensors,23,ok
+1408490,Pereskia grandifolia Haw.,sks_1408490,a photo of the {organ} of a sks_1408490 plant,models/lora/1408490/pytorch_lora_weights.safetensors,40,ok
+1392654,Gomphocarpus physocarpus E.Mey.,sks_1392654,a photo of the {organ} of a sks_1392654 plant,models/lora/1392654/pytorch_lora_weights.safetensors,71,ok
+1397598,Cobaea scandens Cav.,sks_1397598,a photo of the {organ} of a sks_1397598 plant,models/lora/1397598/pytorch_lora_weights.safetensors,49,ok
+1408557,Pongamia pinnata (L.) Pierre,sks_1408557,a photo of the {organ} of a sks_1408557 plant,models/lora/1408557/pytorch_lora_weights.safetensors,36,ok
+1618661,Dendrobium victoriae-reginae Loher,sks_1618661,a photo of the {organ} of a sks_1618661 plant,models/lora/1618661/pytorch_lora_weights.safetensors,51,ok
+1420787,Alocasia odora (Lindl.) K.Koch,sks_1420787,a photo of the {organ} of a sks_1420787 plant,models/lora/1420787/pytorch_lora_weights.safetensors,38,ok
+1406863,Acalypha indica L.,sks_1406863,a photo of the {organ} of a sks_1406863 plant,models/lora/1406863/pytorch_lora_weights.safetensors,66,low_organ_acc
+1356076,Tradescantia zebrina Heynh. ex Bosse,sks_1356076,a photo of the {organ} of a sks_1356076 plant,models/lora/1356076/pytorch_lora_weights.safetensors,49,ok
+1385700,Barringtonia asiatica (L.) Kurz,sks_1385700,a photo of the {organ} of a sks_1385700 plant,models/lora/1385700/pytorch_lora_weights.safetensors,47,ok
+1384499,Lagenaria siceraria (Molina) Standl.,sks_1384499,a photo of the {organ} of a sks_1384499 plant,models/lora/1384499/pytorch_lora_weights.safetensors,56,ok

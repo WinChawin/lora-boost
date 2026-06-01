@@ -1,0 +1,63 @@
+true_sid,pred_sid,A_count,D_count,delta,true_name,pred_name
+1406486,1393614,0,2,2,Kigelia africana (Lam.) Benth.,Liriodendron tulipifera L.
+1408490,1397268,1,2,1,Pereskia grandifolia Haw.,Anemone hupehensis (Lemoine) Lemoine
+1406486,1364172,0,1,1,Kigelia africana (Lam.) Benth.,Lactuca sativa L.
+1406486,1394994,0,1,1,Kigelia africana (Lam.) Benth.,Pyracantha coccinea M.Roem.
+1406863,1364164,0,1,1,Acalypha indica L.,Lapsana communis L.
+1397598,1413002,0,1,1,Cobaea scandens Cav.,Aralia nudicaulis L.
+1408490,1359517,0,1,1,Pereskia grandifolia Haw.,Trifolium pratense L.
+1409195,1385937,0,1,1,Pereskia aculeata Mill.,Zamioculcas zamiifolia (Lodd.) Engl.
+1409195,1359517,0,1,1,Pereskia aculeata Mill.,Trifolium pratense L.
+1408557,1409292,0,1,1,Pongamia pinnata (L.) Pierre,Dendrobium nobile Lindl.
+1408557,1391963,0,1,1,Pongamia pinnata (L.) Pierre,Epipactis palustris (L.) Crantz
+1408490,1385937,0,1,1,Pereskia grandifolia Haw.,Zamioculcas zamiifolia (Lodd.) Engl.
+1408490,1385701,0,1,1,Pereskia grandifolia Haw.,Couroupita guianensis Aubl.
+1409195,1409295,0,1,1,Pereskia aculeata Mill.,Nandina domestica Thunb.
+1376703,1358605,0,1,1,Petiveria alliacea L.,Mercurialis perennis L.
+1392654,1392653,0,1,1,Gomphocarpus physocarpus E.Mey.,Gomphocarpus fruticosus (L.) R.Br.
+1406486,1359616,0,1,1,Kigelia africana (Lam.) Benth.,Punica granatum L.
+1384499,1393614,0,1,1,Lagenaria siceraria (Molina) Standl.,Liriodendron tulipifera L.
+1385700,1393614,0,1,1,Barringtonia asiatica (L.) Kurz,Liriodendron tulipifera L.
+1385700,1393241,0,1,1,Barringtonia asiatica (L.) Kurz,Hypericum calycinum L.
+1419807,1369887,1,2,1,Vanilla planifolia Jacks. ex Andrews,Trachelospermum jasminoides (Lindl.) Lem.
+1392654,1363227,0,1,1,Gomphocarpus physocarpus E.Mey.,Daucus carota L.
+1385700,1372016,0,1,1,Barringtonia asiatica (L.) Kurz,Morinda citrifolia L.
+1376703,1362490,0,1,1,Petiveria alliacea L.,Sedum rupestre L.
+1376703,1369887,0,1,1,Petiveria alliacea L.,Trachelospermum jasminoides (Lindl.) Lem.
+1408490,1372016,0,1,1,Pereskia grandifolia Haw.,Morinda citrifolia L.
+1376703,1372016,1,1,0,Petiveria alliacea L.,Morinda citrifolia L.
+1384499,1391483,2,2,0,Lagenaria siceraria (Molina) Standl.,Cucurbita maxima Duchesne
+1392654,1355937,1,1,0,Gomphocarpus physocarpus E.Mey.,Cirsium vulgare (Savi) Ten.
+1356076,1398178,9,9,0,Tradescantia zebrina Heynh. ex Bosse,Tradescantia zebrina Bosse
+1385700,1394382,1,1,0,Barringtonia asiatica (L.) Kurz,Anemone alpina L.
+1406863,1359498,1,1,0,Acalypha indica L.,Trifolium incarnatum L.
+1406863,1408688,3,3,0,Acalypha indica L.,Acalypha hispida Burm.f.
+1406863,1359625,1,1,0,Acalypha indica L.,Althaea officinalis L.
+1409195,1359669,1,1,0,Pereskia aculeata Mill.,Nymphaea alba L.
+1408557,1359616,1,1,0,Pongamia pinnata (L.) Pierre,Punica granatum L.
+1408490,1403826,1,1,0,Pereskia grandifolia Haw.,Pereskia bleo (Kunth) DC.
+1397598,1411760,1,1,0,Cobaea scandens Cav.,Diervilla lonicera Mill.
+1356076,1408774,1,1,0,Tradescantia zebrina Heynh. ex Bosse,Tradescantia pallida (Rose) D.R.Hunt
+1419807,1409292,1,1,0,Vanilla planifolia Jacks. ex Andrews,Dendrobium nobile Lindl.
+1409195,1408961,1,1,0,Pereskia aculeata Mill.,Schefflera arboricola (Hayata) Merr.
+1409195,1369887,1,1,0,Pereskia aculeata Mill.,Trachelospermum jasminoides (Lindl.) Lem.
+1618661,1393241,1,1,0,Dendrobium victoriae-reginae Loher,Hypericum calycinum L.
+1420787,1408045,5,5,0,Alocasia odora (Lindl.) K.Koch,Alocasia macrorrhizos (L.) G.Don
+1618661,1409292,3,3,0,Dendrobium victoriae-reginae Loher,Dendrobium nobile Lindl.
+1416509,1363336,1,1,0,Nepenthes vieillardii Hook. f.,Smilax aspera L.
+1409195,1362954,1,0,-1,Pereskia aculeata Mill.,Schefflera actinophylla (Endl.) Harms
+1408557,1405641,1,0,-1,Pongamia pinnata (L.) Pierre,Asystasia gangetica (L.) T.Anderson
+1408557,1362954,1,0,-1,Pongamia pinnata (L.) Pierre,Schefflera actinophylla (Endl.) Harms
+1408557,1356075,1,0,-1,Pongamia pinnata (L.) Pierre,Tradescantia fluminensis Vell.
+1406486,1419086,1,0,-1,Kigelia africana (Lam.) Benth.,Garrya elliptica Douglas ex Lindl.
+1406486,1409238,1,0,-1,Kigelia africana (Lam.) Benth.,Anthurium andraeanum Linden ex André
+1406863,1376726,1,0,-1,Acalypha indica L.,Peperomia pellucida (L.) Kunth
+1408490,1369887,1,0,-1,Pereskia grandifolia Haw.,Trachelospermum jasminoides (Lindl.) Lem.
+1406486,1369887,1,0,-1,Kigelia africana (Lam.) Benth.,Trachelospermum jasminoides (Lindl.) Lem.
+1376703,1398326,1,0,-1,Petiveria alliacea L.,Calycanthus floridus L.
+1384499,1359620,2,1,-1,Lagenaria siceraria (Molina) Standl.,Alcea rosea L.
+1385700,1364172,1,0,-1,Barringtonia asiatica (L.) Kurz,Lactuca sativa L.
+1385700,1409834,1,0,-1,Barringtonia asiatica (L.) Kurz,Neolamarckia cadamba (Roxb.) Bosser
+1392654,1360588,1,0,-1,Gomphocarpus physocarpus E.Mey.,Daphne gnidium L.
+1392654,1369887,1,0,-1,Gomphocarpus physocarpus E.Mey.,Trachelospermum jasminoides (Lindl.) Lem.
+1397598,1358689,1,0,-1,Cobaea scandens Cav.,Hypericum androsaemum L.

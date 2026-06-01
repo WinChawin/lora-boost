@@ -1,0 +1,13 @@
+data/*
+!data/metadata/
+data/metadata/diagnostics/
+.cache/
+models/
+results/nb04/ckpt/
+__pycache__/
+*.safetensors
+*.pt
+*.pth
+*.npy
+*.parquet
+.ipynb_checkpoints/
