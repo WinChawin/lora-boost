@@ -1,0 +1,4 @@
+exp_id,C,R,n_classes,shape,k,p,combine,loss,cap,seeds,A_rare,B_rare,C_rare,D_rare,D_rare_std,dDA,dDB,dDC,notes
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,121.0,96.0,200,gap_pow,1.0,0.5,mid,focal,True,"[42, 0, 1]",0.6537,0.6444,0.6407,0.6528,0.0424,-0.0008999999999999,0.0084,0.0121,"baseline run: sqrt budget, R=mid, focal g2"
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,121.0,96.0,200,gap_pow,2.0,0.5,mid,focal,True,"[42, 0, 1]",0.6537,0.654,0.6417,0.6262,0.0272,-0.0274999999999999,-0.0278,-0.0155,"exp2: k=2 budget x2, R=mid, focal g2"
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,121.0,96.0,200,gap_pow,0.5,0.5,mid,focal,True,"[42, 0, 1]",0.6537,0.647,0.6211,0.641,0.0152,-0.012699999999999934,-0.006000000000000005,0.01990000000000003,"exp3: k=0.5, R=mid, focal g2"

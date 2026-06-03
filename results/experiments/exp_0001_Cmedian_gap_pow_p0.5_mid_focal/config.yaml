@@ -1,0 +1,43 @@
+head_cut:
+  rule: median
+budget:
+  shape: gap_pow
+  k: 1.0
+  p: 0.5
+  ratio_ref: 0.5
+ref_point:
+  combine: mid
+loss:
+  type: focal
+  gamma: 2.0
+  alpha: null
+cap_to_R: true
+conditions:
+- A
+- B
+- C
+- D
+seeds:
+- 42
+- 0
+- 1
+organ_balance: true
+notes: 'baseline run: sqrt budget, R=mid, focal g2'
+exp_id: null
+early_stop:
+  monitor: rare_f1
+  mode: max
+  patience: 15
+  min_delta: 0.002
+  max_epochs: 40
+  restore_best: true
+  enabled: true
+batch_size: 128
+lr_backbone: 0.0001
+lr_fc: 0.001
+weight_decay: 0.0001
+keep_ckpt: false
+_resolved:
+  C: 121.0
+  R: 96.0
+  max_rare: 71
