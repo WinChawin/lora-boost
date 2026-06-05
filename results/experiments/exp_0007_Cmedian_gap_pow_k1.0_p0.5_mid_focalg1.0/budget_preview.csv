@@ -1,0 +1,16 @@
+name,n_train,b,n_final,ratio,consistency,organ_acc,flag
+Nepenthes vieillardii,20,9,29,0.45,0.525,0.833,ok
+Vanilla planifolia,23,9,32,0.391,0.562,0.9,ok
+Petiveria alliacea,28,8,36,0.286,0.527,1.0,ok
+Pereskia aculeata,33,8,41,0.242,0.546,1.0,ok
+Pongamia pinnata,36,8,44,0.222,0.671,1.0,ok
+Kigelia africana,37,8,45,0.216,0.492,1.0,low_consistency
+Alocasia odora,38,8,46,0.211,0.718,0.9,ok
+Pereskia grandifolia,40,7,47,0.175,0.596,0.933,ok
+Barringtonia asiatica,47,7,54,0.149,0.772,1.0,ok
+Tradescantia zebrina,49,7,56,0.143,0.747,0.767,ok
+Cobaea scandens,49,7,56,0.143,0.615,1.0,ok
+Dendrobium victoriae-reginae,51,7,58,0.137,0.689,0.933,ok
+Lagenaria siceraria,56,6,62,0.107,0.802,1.0,ok
+Acalypha indica,66,5,71,0.076,0.738,0.567,low_organ_acc
+Gomphocarpus physocarpus,71,5,76,0.07,0.6,1.0,ok
