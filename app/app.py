@@ -75,7 +75,7 @@ fig.add_trace(go.Scatter(x=rr['rank'], y=rr['n_train'], mode='markers',
                          hovertemplate='%{text}<br>%{y} train imgs<extra></extra>'))
 fig.update_yaxes(type='log', title='train images per species (log scale)')
 fig.update_xaxes(title='species rank (most → least images)')
-st.plotly_chart(style_fig(fig, 420), use_container_width=True)
+st.plotly_chart(style_fig(fig, 420), width='stretch')
 
 st.markdown('**Controlled subset — what the experiment trains on**')
 C, R = float(main['C'].iloc[0]), float(main['R'].iloc[0])
@@ -96,12 +96,12 @@ figk.add_hline(y=C, line_dash='dash', line_color='#888', annotation_text=f'C = {
 figk.add_hline(y=R, line_dash='dash', line_color='#5e7259', annotation_text=f'R = {R:.0f} (cap)', annotation_position='bottom right')
 figk.update_yaxes(title='train images per species')
 figk.update_xaxes(title='kept species rank')
-st.plotly_chart(style_fig(figk, 360), use_container_width=True)
+st.plotly_chart(style_fig(figk, 360), width='stretch')
 st.caption(f'ตัดหัว (class ที่ n_train > {C:.0f}) ออก เหลือ {len(kept)} class แล้ว cap non-rare ที่เกิน {R:.0f} ลงมา '
            f'ทำให้ long-tail แคบลง ศึกษาได้แฟร์ขึ้น · rare 15 ตัว = จุดสีแดง')
 
 st.markdown('**15 rare species — augmentation target**')
-st.dataframe(rare.sort_values('n_train'), use_container_width=True, hide_index=True)
+st.dataframe(rare.sort_values('n_train'), width='stretch', hide_index=True)
 
 st.divider()
 st.header('How LoRA-Boost works')
@@ -110,9 +110,9 @@ st.write('เทรน LoRA แยกต่อ species บน FLUX.2-klein (Drea
 PIPE = [('NB01', 'clean + split 399 species'), ('NB02', 'train 15 LoRA'),
         ('NB03', 'generate synthetic'), ('NB04', 'train ResNet-50'),
         ('NB05', 'error analysis'), ('NB06', 'budget experiment')]
-box = ('<div style="flex:1;min-width:120px;background:#f7f7f7;border:1px solid #e0e0e0;'
-       'border-radius:8px;padding:10px 12px"><div style="font-weight:600">{t}</div>'
-       '<div style="font-size:12px;color:#777">{d}</div></div>')
+box = ('<div style="flex:1;min-width:120px;background:#1a1d29;border:1px solid #2a2e3d;'
+       'border-radius:8px;padding:10px 12px"><div style="font-weight:600;color:#e6e6e6">{t}</div>'
+       '<div style="font-size:12px;color:#9aa0ad">{d}</div></div>')
 arrow = '<div style="align-self:center;color:#bbb;font-size:18px">→</div>'
 st.markdown(f'<div style="display:flex;gap:6px;flex-wrap:wrap;align-items:stretch;margin:6px 0 18px">'
             f'{arrow.join(box.format(t=t, d=de) for t, de in PIPE)}</div>', unsafe_allow_html=True)
@@ -124,7 +124,7 @@ for col, tag, label in zip(st.columns(3), ['real', 'zeroshot', 'lora'],
                            ['Real (Pl@ntNet)', 'FLUX zero-shot', 'LoRA-Boost (ours)']):
     col.markdown(f'**{label}**')
     for im in sorted((ASSETS/'gallery'/sid/tag).glob('*.jpg')):
-        col.image(str(im), use_container_width=True)
+        col.image(str(im), width='stretch')
 st.caption('LoRA weights ทั้ง 15 species: (วาง link HuggingFace ตรงนี้)')
 
 st.divider()
@@ -154,7 +154,7 @@ fig = go.Figure(go.Bar(x=[COND_NAME[c] for c in conds], y=means,
                        marker_color=[COLORS[c] for c in conds],
                        text=[f'{m:.3f}' for m in means], textposition='outside'))
 fig.update_layout(yaxis_title=METRICS[metric])
-st.plotly_chart(style_fig(fig), use_container_width=True)
+st.plotly_chart(style_fig(fig), width='stretch')
 
 st.markdown('**Per-species: D vs A**')
 psm = {'rare_recall': 'recall', 'rare_f1': 'f1', 'rare_precision': 'precision'}.get(metric, 'recall')
@@ -167,7 +167,7 @@ fig4 = go.Figure(go.Bar(y=[nm[i] for i in delta.index], x=delta.values, orientat
                         marker_color=['#b1502b' if v < 0 else '#5e7259' for v in delta.values]))
 fig4.add_vline(x=0, line_color='#333')
 fig4.update_layout(xaxis_title=f'D − A ({psm}), + = ดีขึ้น')
-st.plotly_chart(style_fig(fig4, 460), use_container_width=True)
+st.plotly_chart(style_fig(fig4, 460), width='stretch')
 
 st.divider()
 st.subheader('ภาพรวมข้าม config (ไม่ขึ้นกับตัวเลือกด้านบน)')
@@ -182,7 +182,7 @@ with cc1:
     fig2.add_trace(go.Scatter(x=pr.index, y=pr['D'] - pr['A'], mode='lines+markers', name='Δ recall', line=dict(color='#5e7259')))
     fig2.add_hline(y=0, line_dash='dash', line_color='#bbb')
     fig2.update_layout(xaxis_title='k (synthetic budget)', yaxis_title='D − A')
-    st.plotly_chart(style_fig(fig2, 320), use_container_width=True)
+    st.plotly_chart(style_fig(fig2, 320), width='stretch')
     st.caption('k=1 ดีสุด · k=2 เริ่มติดลบ (synthetic เยอะไป → distribution shift)')
 with cc2:
     st.markdown('**Robustness across γ (k=1)**')
@@ -192,7 +192,7 @@ with cc2:
     for c in ['A', 'D']:
         fig3.add_trace(go.Scatter(x=piv.index, y=piv[c], mode='lines+markers', name=c, line=dict(color=COLORS[c])))
     fig3.update_layout(xaxis_title='focal γ (0 = CE)', yaxis_title=METRICS[metric])
-    st.plotly_chart(style_fig(fig3, 320), use_container_width=True)
+    st.plotly_chart(style_fig(fig3, 320), width='stretch')
     st.caption('D อยู่เหนือ A ทุก γ → ผลบวกไม่ขึ้นกับ γ ตัวเดียว')
 
 st.divider()
@@ -201,7 +201,7 @@ st.info('ส่วนทำนายจะเปิดหลังเลือ�
 pick = st.selectbox('rare species', sorted(samples.scientific_name.unique()), key='samp')
 sub = samples[samples.scientific_name == pick]
 for col, r in zip(st.columns(len(sub)), sub.itertuples()):
-    col.image(str(ASSETS/r.rel), use_container_width=True, caption=r.organ)
+    col.image(str(ASSETS/r.rel), width='stretch', caption=r.organ)
 st.caption(f'เฉลย: {pick} · {len(sub)} รูป (test set, held-out ไม่เคยเห็นตอนเทรน)')
 st.button('Predict — A vs D', disabled=True)
 st.caption('รอเลือกโมเดล → จะโหลด checkpoint แล้วทาย top-3 + เทียบ A กับ D ตรงนี้')
