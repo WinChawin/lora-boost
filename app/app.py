@@ -29,6 +29,38 @@ rare     = load('rare_species.csv')
 samples  = load('samples_index.csv')
 gallery  = load('gallery_index.csv')
 
+import json
+import torch
+from torchvision.models import resnet50
+from torchvision import transforms as TF
+from safetensors.torch import load_file
+from PIL import Image
+
+MODELS_DIR = APP/'models'
+
+@st.cache_resource
+def load_label_map():
+    lm = sorted(json.load(open(MODELS_DIR/'label_map.json')), key=lambda x: x['idx'])
+    return [x['name'] for x in lm], [x['species_id'] for x in lm], [x['is_rare'] for x in lm]
+
+@st.cache_resource
+def load_model(cond):
+    names, _, _ = load_label_map()
+    m = resnet50()
+    m.fc = torch.nn.Linear(m.fc.in_features, len(names))
+    m.load_state_dict({k: v.float() for k, v in load_file(str(MODELS_DIR/f'{cond}.safetensors')).items()})
+    m.eval()
+    return m
+
+infer_tf = TF.Compose([TF.Resize((224, 224)), TF.ToTensor(),
+                       TF.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])])
+
+@torch.no_grad()
+def predict(cond, pil_img, k=3):
+    probs = torch.softmax(load_model(cond)(infer_tf(pil_img.convert('RGB')).unsqueeze(0)), 1)[0]
+    top = torch.topk(probs, k)
+    return [(int(i), float(p)) for i, p in zip(top.indices, top.values)]
+
 def gamma_label(r):
     if str(r['loss']) == 'ce':
         return 'CE (γ=0)'
@@ -196,12 +228,57 @@ with cc2:
     st.caption('D อยู่เหนือ A ทุก γ → ผลบวกไม่ขึ้นกับ γ ตัวเดียว')
 
 st.divider()
+def pred_rows(preds, names, rares, sids, answer_sid):
+    html = ''
+    for i, p in preds:
+        correct = answer_sid is not None and sids[i] == answer_sid
+        bar = '#5e7259' if correct else '#565b6b'
+        txt = '#a9d3a4' if correct else '#dcdce0'
+        nm = names[i] + (' · rare' if rares[i] else '')
+        pct = f'{p*100:.0f}'
+        html += (f'<div style="margin:7px 0">'
+                 f'<div style="display:flex;justify-content:space-between;gap:8px;font-size:13px;color:{txt}">'
+                 f'<span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">{nm}</span>'
+                 f'<span style="flex-shrink:0">{pct}%</span></div>'
+                 f'<div style="background:#2a2e3d;border-radius:4px;height:7px;margin-top:3px">'
+                 f'<div style="width:{pct}%;background:{bar};height:7px;border-radius:4px"></div></div></div>')
+    return html
+
 st.header('Try it yourself')
-st.info('ส่วนทำนายจะเปิดหลังเลือกโมเดล (A/B/C/D) แล้ว ตอนนี้เตรียมรูปตัวอย่าง + เฉลยไว้แล้ว')
-pick = st.selectbox('rare species', sorted(samples.scientific_name.unique()), key='samp')
-sub = samples[samples.scientific_name == pick]
-for col, r in zip(st.columns(len(sub)), sub.itertuples()):
-    col.image(str(ASSETS/r.rel), width='stretch', caption=r.organ)
-st.caption(f'เฉลย: {pick} · {len(sub)} รูป (test set, held-out ไม่เคยเห็นตอนเทรน)')
-st.button('Predict — A vs D', disabled=True)
-st.caption('รอเลือกโมเดล → จะโหลด checkpoint แล้วทาย top-3 + เทียบ A กับ D ตรงนี้')
+st.write('เลือกรูป test ของ rare species หรืออัปโหลดเอง แล้วดูว่าแต่ละโมเดลทายอะไร '
+         'แท่งเขียว = species ที่ถูกต้อง (ถ้าโผล่ใน top-3)')
+
+names, sids, rares = load_label_map()
+img, answer_sid, answer_name = None, None, None
+
+mode = st.radio('mode', ['ตัวอย่าง', 'อัปโหลดเอง'], horizontal=True, label_visibility='collapsed')
+if mode == 'ตัวอย่าง':
+    pick = st.selectbox('species', sorted(samples.scientific_name.unique()), key='samp')
+    sub = samples[samples.scientific_name == pick].reset_index(drop=True)
+    for c, r in zip(st.columns(len(sub)), sub.itertuples()):
+        c.image(str(ASSETS/r.rel), width='stretch')
+    j = st.radio('เลือกรูปทดสอบ', range(len(sub)), format_func=lambda i: f'รูป {i+1}', horizontal=True)
+    row = sub.iloc[j]
+    img, answer_sid, answer_name = Image.open(ASSETS/row.rel), row.species_id, pick
+else:
+    up = st.file_uploader('อัปโหลดรูปพืช', type=['jpg', 'jpeg', 'png'])
+    if up:
+        img = Image.open(up)
+        st.image(img, width=240)
+
+all4 = st.toggle('เทียบครบ 4 โมเดล (A / B / C / D)', value=False)
+chosen = ['A', 'B', 'C', 'D'] if all4 else ['A', 'D']
+
+if img is None:
+    st.caption('เลือกหรืออัปโหลดรูปก่อน')
+else:
+    ncol = 2 if len(chosen) > 2 else len(chosen)        # ครบ 4 -> 2x2, A vs D -> 2 ใบเรียงเดียว
+    for r in range(0, len(chosen), ncol):
+        for col, cond in zip(st.columns(ncol), chosen[r:r + ncol]):
+            with col.container(border=True):
+                preds = predict(cond, img)
+                head = f'**{COND_NAME[cond]}**'
+                if answer_sid is not None:
+                    head += '  ' + (':green[ถูก]' if sids[preds[0][0]] == answer_sid else ':red[ผิด]')
+                st.markdown(head)
+                st.markdown(pred_rows(preds, names, rares, sids, answer_sid), unsafe_allow_html=True)
