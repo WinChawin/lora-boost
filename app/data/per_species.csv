@@ -1,0 +1,541 @@
+exp_id,condition,species_id,f1,precision,recall,scientific_name
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,A,1356076,0.25277777777777777,,,Tradescantia zebrina Heynh. ex Bosse
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,A,1376703,0.4777777777777777,,,Petiveria alliacea L.
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,A,1384499,0.7566137566137566,,,Lagenaria siceraria (Molina) Standl.
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,A,1385700,0.7428571428571429,,,Barringtonia asiatica (L.) Kurz
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,A,1392654,0.7729575163398693,,,Gomphocarpus physocarpus E.Mey.
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,A,1397598,0.8153717627401837,,,Cobaea scandens Cav.
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,A,1406486,0.4576719576719577,,,Kigelia africana (Lam.) Benth.
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,A,1406863,0.46597653554175295,,,Acalypha indica L.
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,A,1408490,0.6851851851851851,,,Pereskia grandifolia Haw.
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,A,1408557,0.51010101010101,,,Pongamia pinnata (L.) Pierre
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,A,1409195,0.5296296296296296,,,Pereskia aculeata Mill.
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,A,1416509,0.9259259259259259,,,Nepenthes vieillardii Hook. f.
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,A,1419807,0.6,,,Vanilla planifolia Jacks. ex Andrews
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,A,1420787,0.9411764705882352,,,Alocasia odora (Lindl.) K.Koch
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,A,1618661,0.8714285714285714,,,Dendrobium victoriae-reginae Loher
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,B,1356076,0.3181818181818182,,,Tradescantia zebrina Heynh. ex Bosse
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,B,1376703,0.602020202020202,,,Petiveria alliacea L.
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,B,1384499,0.8001763668430334,,,Lagenaria siceraria (Molina) Standl.
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,B,1385700,0.6255348516218081,,,Barringtonia asiatica (L.) Kurz
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,B,1392654,0.7593354583212596,,,Gomphocarpus physocarpus E.Mey.
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,B,1397598,0.7821486082355648,,,Cobaea scandens Cav.
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,B,1406486,0.3686609686609687,,,Kigelia africana (Lam.) Benth.
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,B,1406863,0.5096349581007331,,,Acalypha indica L.
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,B,1408490,0.6666666666666666,,,Pereskia grandifolia Haw.
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,B,1408557,0.5284313725490196,,,Pongamia pinnata (L.) Pierre
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,B,1409195,0.48937198067632853,,,Pereskia aculeata Mill.
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,B,1416509,0.8407407407407407,,,Nepenthes vieillardii Hook. f.
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,B,1419807,0.7685185185185185,,,Vanilla planifolia Jacks. ex Andrews
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,B,1420787,0.762844611528822,,,Alocasia odora (Lindl.) K.Koch
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,B,1618661,0.8441558441558441,,,Dendrobium victoriae-reginae Loher
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,C,1356076,0.24074074074074073,,,Tradescantia zebrina Heynh. ex Bosse
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,C,1376703,0.5317460317460317,,,Petiveria alliacea L.
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,C,1384499,0.835707502374169,,,Lagenaria siceraria (Molina) Standl.
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,C,1385700,0.6715430163706025,,,Barringtonia asiatica (L.) Kurz
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,C,1392654,0.7711182359484394,,,Gomphocarpus physocarpus E.Mey.
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,C,1397598,0.7503607503607505,,,Cobaea scandens Cav.
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,C,1406486,0.501364522417154,,,Kigelia africana (Lam.) Benth.
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,C,1406863,0.6018240879560219,,,Acalypha indica L.
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,C,1408490,0.5985294117647059,,,Pereskia grandifolia Haw.
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,C,1408557,0.4666666666666666,,,Pongamia pinnata (L.) Pierre
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,C,1409195,0.4947089947089947,,,Pereskia aculeata Mill.
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,C,1416509,0.8296296296296296,,,Nepenthes vieillardii Hook. f.
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,C,1419807,0.5555555555555555,,,Vanilla planifolia Jacks. ex Andrews
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,C,1420787,0.9359477124183005,,,Alocasia odora (Lindl.) K.Koch
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,C,1618661,0.8251082251082251,,,Dendrobium victoriae-reginae Loher
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,D,1356076,0.1469298245614035,,,Tradescantia zebrina Heynh. ex Bosse
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,D,1376703,0.6626984126984127,,,Petiveria alliacea L.
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,D,1384499,0.7528735632183908,,,Lagenaria siceraria (Molina) Standl.
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,D,1385700,0.6981818181818182,,,Barringtonia asiatica (L.) Kurz
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,D,1392654,0.7405222734254991,,,Gomphocarpus physocarpus E.Mey.
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,D,1397598,0.7568922305764411,,,Cobaea scandens Cav.
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,D,1406486,0.5031746031746032,,,Kigelia africana (Lam.) Benth.
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,D,1406863,0.5393719806763285,,,Acalypha indica L.
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,D,1408490,0.5862299465240642,,,Pereskia grandifolia Haw.
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,D,1408557,0.6134615384615385,,,Pongamia pinnata (L.) Pierre
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,D,1409195,0.5094017094017094,,,Pereskia aculeata Mill.
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,D,1416509,0.7454545454545455,,,Nepenthes vieillardii Hook. f.
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,D,1419807,0.8222222222222223,,,Vanilla planifolia Jacks. ex Andrews
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,D,1420787,0.8649237472766885,,,Alocasia odora (Lindl.) K.Koch
+exp_0001_Cmedian_gap_pow_p0.5_mid_focal,D,1618661,0.85,,,Dendrobium victoriae-reginae Loher
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,A,1356076,0.25277777777777777,,,Tradescantia zebrina Heynh. ex Bosse
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,A,1376703,0.4777777777777777,,,Petiveria alliacea L.
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,A,1384499,0.7566137566137566,,,Lagenaria siceraria (Molina) Standl.
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,A,1385700,0.7428571428571429,,,Barringtonia asiatica (L.) Kurz
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,A,1392654,0.7729575163398693,,,Gomphocarpus physocarpus E.Mey.
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,A,1397598,0.8153717627401837,,,Cobaea scandens Cav.
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,A,1406486,0.4576719576719577,,,Kigelia africana (Lam.) Benth.
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,A,1406863,0.46597653554175295,,,Acalypha indica L.
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,A,1408490,0.6851851851851851,,,Pereskia grandifolia Haw.
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,A,1408557,0.51010101010101,,,Pongamia pinnata (L.) Pierre
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,A,1409195,0.5296296296296296,,,Pereskia aculeata Mill.
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,A,1416509,0.9259259259259259,,,Nepenthes vieillardii Hook. f.
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,A,1419807,0.6,,,Vanilla planifolia Jacks. ex Andrews
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,A,1420787,0.9411764705882352,,,Alocasia odora (Lindl.) K.Koch
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,A,1618661,0.8714285714285714,,,Dendrobium victoriae-reginae Loher
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,B,1356076,0.22023809523809523,,,Tradescantia zebrina Heynh. ex Bosse
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,B,1376703,0.576923076923077,,,Petiveria alliacea L.
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,B,1384499,0.8116483516483517,,,Lagenaria siceraria (Molina) Standl.
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,B,1385700,0.5872649572649573,,,Barringtonia asiatica (L.) Kurz
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,B,1392654,0.7728715728715728,,,Gomphocarpus physocarpus E.Mey.
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,B,1397598,0.7525189786059352,,,Cobaea scandens Cav.
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,B,1406486,0.6068111455108359,,,Kigelia africana (Lam.) Benth.
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,B,1406863,0.6128364389233955,,,Acalypha indica L.
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,B,1408490,0.6527777777777777,,,Pereskia grandifolia Haw.
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,B,1408557,0.5521929824561403,,,Pongamia pinnata (L.) Pierre
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,B,1409195,0.47992530345471524,,,Pereskia aculeata Mill.
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,B,1416509,0.872053872053872,,,Nepenthes vieillardii Hook. f.
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,B,1419807,0.6484848484848484,,,Vanilla planifolia Jacks. ex Andrews
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,B,1420787,0.7780562517404622,,,Alocasia odora (Lindl.) K.Koch
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,B,1618661,0.8857142857142857,,,Dendrobium victoriae-reginae Loher
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,C,1356076,0.19027347781217752,,,Tradescantia zebrina Heynh. ex Bosse
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,C,1376703,0.6074074074074074,,,Petiveria alliacea L.
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,C,1384499,0.7960834397616007,,,Lagenaria siceraria (Molina) Standl.
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,C,1385700,0.6909090909090909,,,Barringtonia asiatica (L.) Kurz
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,C,1392654,0.7619726678550207,,,Gomphocarpus physocarpus E.Mey.
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,C,1397598,0.7313766086144602,,,Cobaea scandens Cav.
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,C,1406486,0.5042016806722689,,,Kigelia africana (Lam.) Benth.
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,C,1406863,0.5787878787878787,,,Acalypha indica L.
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,C,1408490,0.5895969498910676,,,Pereskia grandifolia Haw.
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,C,1408557,0.47515848444641007,,,Pongamia pinnata (L.) Pierre
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,C,1409195,0.5703242835595778,,,Pereskia aculeata Mill.
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,C,1416509,0.8727272727272727,,,Nepenthes vieillardii Hook. f.
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,C,1419807,0.4523809523809524,,,Vanilla planifolia Jacks. ex Andrews
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,C,1420787,0.9607843137254902,,,Alocasia odora (Lindl.) K.Koch
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,C,1618661,0.8441558441558441,,,Dendrobium victoriae-reginae Loher
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,D,1356076,0.23358908780903667,,,Tradescantia zebrina Heynh. ex Bosse
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,D,1376703,0.4148148148148148,,,Petiveria alliacea L.
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,D,1384499,0.7463685739547808,,,Lagenaria siceraria (Molina) Standl.
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,D,1385700,0.7080745341614906,,,Barringtonia asiatica (L.) Kurz
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,D,1392654,0.7599524658348188,,,Gomphocarpus physocarpus E.Mey.
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,D,1397598,0.6969696969696969,,,Cobaea scandens Cav.
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,D,1406486,0.41269841269841273,,,Kigelia africana (Lam.) Benth.
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,D,1406863,0.5,,,Acalypha indica L.
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,D,1408490,0.628826969384245,,,Pereskia grandifolia Haw.
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,D,1408557,0.5665349143610013,,,Pongamia pinnata (L.) Pierre
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,D,1409195,0.4738562091503267,,,Pereskia aculeata Mill.
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,D,1416509,0.8111111111111112,,,Nepenthes vieillardii Hook. f.
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,D,1419807,0.6238095238095238,,,Vanilla planifolia Jacks. ex Andrews
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,D,1420787,0.943355119825708,,,Alocasia odora (Lindl.) K.Koch
+exp_0002_Cmedian_gap_pow_k2.0_p0.5_mid_focal,D,1618661,0.8727272727272727,,,Dendrobium victoriae-reginae Loher
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,A,1356076,0.25277777777777777,,,Tradescantia zebrina Heynh. ex Bosse
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,A,1376703,0.4777777777777777,,,Petiveria alliacea L.
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,A,1384499,0.7566137566137566,,,Lagenaria siceraria (Molina) Standl.
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,A,1385700,0.7428571428571429,,,Barringtonia asiatica (L.) Kurz
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,A,1392654,0.7729575163398693,,,Gomphocarpus physocarpus E.Mey.
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,A,1397598,0.8153717627401837,,,Cobaea scandens Cav.
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,A,1406486,0.4576719576719577,,,Kigelia africana (Lam.) Benth.
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,A,1406863,0.46597653554175295,,,Acalypha indica L.
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,A,1408490,0.6851851851851851,,,Pereskia grandifolia Haw.
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,A,1408557,0.51010101010101,,,Pongamia pinnata (L.) Pierre
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,A,1409195,0.5296296296296296,,,Pereskia aculeata Mill.
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,A,1416509,0.9259259259259259,,,Nepenthes vieillardii Hook. f.
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,A,1419807,0.6,,,Vanilla planifolia Jacks. ex Andrews
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,A,1420787,0.9411764705882352,,,Alocasia odora (Lindl.) K.Koch
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,A,1618661,0.8714285714285714,,,Dendrobium victoriae-reginae Loher
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,B,1356076,0.29747899159663865,,,Tradescantia zebrina Heynh. ex Bosse
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,B,1376703,0.6333333333333333,,,Petiveria alliacea L.
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,B,1384499,0.7765830346475507,,,Lagenaria siceraria (Molina) Standl.
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,B,1385700,0.6210826210826211,,,Barringtonia asiatica (L.) Kurz
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,B,1392654,0.750191570881226,,,Gomphocarpus physocarpus E.Mey.
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,B,1397598,0.7440350877192983,,,Cobaea scandens Cav.
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,B,1406486,0.42483660130718953,,,Kigelia africana (Lam.) Benth.
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,B,1406863,0.5390849673202615,,,Acalypha indica L.
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,B,1408490,0.6793650793650793,,,Pereskia grandifolia Haw.
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,B,1408557,0.5654761904761905,,,Pongamia pinnata (L.) Pierre
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,B,1409195,0.5697191697191698,,,Pereskia aculeata Mill.
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,B,1416509,0.8296296296296296,,,Nepenthes vieillardii Hook. f.
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,B,1419807,0.5476190476190476,,,Vanilla planifolia Jacks. ex Andrews
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,B,1420787,0.8549019607843137,,,Alocasia odora (Lindl.) K.Koch
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,B,1618661,0.8714285714285714,,,Dendrobium victoriae-reginae Loher
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,C,1356076,0.21794871794871795,,,Tradescantia zebrina Heynh. ex Bosse
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,C,1376703,0.5871794871794872,,,Petiveria alliacea L.
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,C,1384499,0.7566137566137566,,,Lagenaria siceraria (Molina) Standl.
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,C,1385700,0.6909805170674735,,,Barringtonia asiatica (L.) Kurz
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,C,1392654,0.7517921146953405,,,Gomphocarpus physocarpus E.Mey.
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,C,1397598,0.7177363699102829,,,Cobaea scandens Cav.
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,C,1406486,0.5587301587301587,,,Kigelia africana (Lam.) Benth.
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,C,1406863,0.5466369379412858,,,Acalypha indica L.
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,C,1408490,0.5637426900584795,,,Pereskia grandifolia Haw.
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,C,1408557,0.435932827237175,,,Pongamia pinnata (L.) Pierre
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,C,1409195,0.48055555555555557,,,Pereskia aculeata Mill.
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,C,1416509,0.8148148148148148,,,Nepenthes vieillardii Hook. f.
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,C,1419807,0.4814814814814814,,,Vanilla planifolia Jacks. ex Andrews
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,C,1420787,0.8553921568627452,,,Alocasia odora (Lindl.) K.Koch
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,C,1618661,0.8571428571428571,,,Dendrobium victoriae-reginae Loher
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,D,1356076,0.20350877192982456,,,Tradescantia zebrina Heynh. ex Bosse
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,D,1376703,0.5484848484848485,,,Petiveria alliacea L.
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,D,1384499,0.7871604938271606,,,Lagenaria siceraria (Molina) Standl.
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,D,1385700,0.6763285024154588,,,Barringtonia asiatica (L.) Kurz
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,D,1392654,0.7733543417366947,,,Gomphocarpus physocarpus E.Mey.
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,D,1397598,0.8153717627401837,,,Cobaea scandens Cav.
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,D,1406486,0.43956043956043955,,,Kigelia africana (Lam.) Benth.
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,D,1406863,0.5604040404040403,,,Acalypha indica L.
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,D,1408490,0.6607531901649549,,,Pereskia grandifolia Haw.
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,D,1408557,0.529040404040404,,,Pongamia pinnata (L.) Pierre
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,D,1409195,0.556372549019608,,,Pereskia aculeata Mill.
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,D,1416509,0.7313131313131315,,,Nepenthes vieillardii Hook. f.
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,D,1419807,0.6626984126984127,,,Vanilla planifolia Jacks. ex Andrews
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,D,1420787,0.7851540616246497,,,Alocasia odora (Lindl.) K.Koch
+exp_0003_Cmedian_gap_pow_k0.5_p0.5_mid_focal,D,1618661,0.8857142857142857,,,Dendrobium victoriae-reginae Loher
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,A,1356076,0.17777777777777778,0.17777777777777778,0.19999999999999998,Tradescantia zebrina Heynh. ex Bosse
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,A,1376703,0.4481481481481482,0.5222222222222223,0.4000000000000001,Petiveria alliacea L.
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,A,1384499,0.7956315289648623,0.7405372405372406,0.8611111111111112,Lagenaria siceraria (Molina) Standl.
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,A,1385700,0.7886382623224728,0.7811447811447811,0.8000000000000002,Barringtonia asiatica (L.) Kurz
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,A,1392654,0.8355471220746363,0.746078431372549,0.9523809523809524,Gomphocarpus physocarpus E.Mey.
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,A,1397598,0.7770942507784614,0.7609427609427609,0.8000000000000002,Cobaea scandens Cav.
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,A,1406486,0.5142070863433092,0.5638888888888888,0.48148148148148145,Kigelia africana (Lam.) Benth.
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,A,1406863,0.4599922261091676,0.4678571428571428,0.4615384615384615,Acalypha indica L.
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,A,1408490,0.6157407407407408,0.6455026455026456,0.5925925925925927,Pereskia grandifolia Haw.
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,A,1408557,0.6129629629629629,0.6071428571428571,0.625,Pongamia pinnata (L.) Pierre
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,A,1409195,0.4269434269434269,0.3975468975468975,0.4761904761904761,Pereskia aculeata Mill.
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,A,1416509,0.8962962962962964,0.9333333333333332,0.8666666666666667,Nepenthes vieillardii Hook. f.
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,A,1419807,0.49206349206349204,1.0,0.3333333333333333,Vanilla planifolia Jacks. ex Andrews
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,A,1420787,0.9607843137254902,0.9259259259259259,1.0,Alocasia odora (Lindl.) K.Koch
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,A,1618661,0.8714285714285714,0.8454545454545456,0.9,Dendrobium victoriae-reginae Loher
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,B,1356076,0.22685185185185186,0.2638888888888889,0.20000000000000004,Tradescantia zebrina Heynh. ex Bosse
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,B,1376703,0.5538461538461538,0.525,0.6,Petiveria alliacea L.
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,B,1384499,0.738450486295314,0.6371148459383753,0.8888888888888888,Lagenaria siceraria (Molina) Standl.
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,B,1385700,0.6178266178266177,0.5052910052910052,0.8000000000000002,Barringtonia asiatica (L.) Kurz
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,B,1392654,0.7758838383838383,0.679337231968811,0.9047619047619048,Gomphocarpus physocarpus E.Mey.
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,B,1397598,0.7304347826086955,0.6769230769230768,0.8000000000000002,Cobaea scandens Cav.
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,B,1406486,0.4568627450980392,0.5238095238095238,0.4074074074074074,Kigelia africana (Lam.) Benth.
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,B,1406863,0.5764617691154422,0.6589285714285714,0.5384615384615384,Acalypha indica L.
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,B,1408490,0.6678362573099416,0.6929292929292928,0.6666666666666666,Pereskia grandifolia Haw.
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,B,1408557,0.6050944669365722,0.662878787878788,0.5833333333333334,Pongamia pinnata (L.) Pierre
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,B,1409195,0.5589743589743591,0.5427350427350427,0.6190476190476191,Pereskia aculeata Mill.
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,B,1416509,0.8363636363636364,0.8111111111111112,0.8666666666666667,Nepenthes vieillardii Hook. f.
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,B,1419807,0.6262626262626262,0.6071428571428571,0.6666666666666666,Vanilla planifolia Jacks. ex Andrews
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,B,1420787,0.7867905056759547,0.6936026936026937,0.9166666666666666,Alocasia odora (Lindl.) K.Koch
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,B,1618661,0.8727272727272727,0.85,0.9,Dendrobium victoriae-reginae Loher
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,C,1356076,0.2719298245614035,0.29365079365079366,0.26666666666666666,Tradescantia zebrina Heynh. ex Bosse
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,C,1376703,0.4551282051282051,0.42063492063492064,0.5333333333333333,Petiveria alliacea L.
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,C,1384499,0.8461538461538461,0.7857142857142857,0.9166666666666666,Lagenaria siceraria (Molina) Standl.
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,C,1385700,0.6613756613756614,0.6412337662337663,0.7000000000000001,Barringtonia asiatica (L.) Kurz
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,C,1392654,0.75,0.6666666666666666,0.8571428571428572,Gomphocarpus physocarpus E.Mey.
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,C,1397598,0.7304347826086955,0.6769230769230768,0.8000000000000002,Cobaea scandens Cav.
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,C,1406486,0.4253968253968254,0.42676767676767674,0.4444444444444444,Kigelia africana (Lam.) Benth.
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,C,1406863,0.511264367816092,0.5138888888888888,0.5128205128205129,Acalypha indica L.
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,C,1408490,0.5756613756613757,0.5336700336700336,0.6296296296296297,Pereskia grandifolia Haw.
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,C,1408557,0.48391608391608393,0.5238095238095238,0.5416666666666666,Pongamia pinnata (L.) Pierre
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,C,1409195,0.4873015873015873,0.5095238095238096,0.4761904761904762,Pereskia aculeata Mill.
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,C,1416509,0.8296296296296296,0.8666666666666667,0.8000000000000002,Nepenthes vieillardii Hook. f.
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,C,1419807,0.49999999999999994,0.8055555555555555,0.39999999999999997,Vanilla planifolia Jacks. ex Andrews
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,C,1420787,0.886039886039886,0.9333333333333332,0.875,Alocasia odora (Lindl.) K.Koch
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,C,1618661,0.8380952380952381,0.8121212121212121,0.8666666666666667,Dendrobium victoriae-reginae Loher
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,D,1356076,0.09999999999999999,0.09999999999999999,0.09999999999999999,Tradescantia zebrina Heynh. ex Bosse
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,D,1376703,0.4777777777777778,0.48888888888888893,0.5333333333333333,Petiveria alliacea L.
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,D,1384499,0.7502374169040836,0.6825396825396824,0.8333333333333334,Lagenaria siceraria (Molina) Standl.
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,D,1385700,0.7282765543635108,0.6697746697746698,0.8000000000000002,Barringtonia asiatica (L.) Kurz
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,D,1392654,0.8001262626262626,0.7188109161793372,0.9047619047619048,Gomphocarpus physocarpus E.Mey.
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,D,1397598,0.8013366750208855,0.8053872053872054,0.8000000000000002,Cobaea scandens Cav.
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,D,1406486,0.6238562091503268,0.7162698412698413,0.5555555555555556,Kigelia africana (Lam.) Benth.
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,D,1406863,0.5665445665445666,0.6462703962703963,0.5128205128205129,Acalypha indica L.
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,D,1408490,0.6081996434937612,0.5696386946386945,0.6666666666666666,Pereskia grandifolia Haw.
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,D,1408557,0.6585745409274821,0.6666666666666666,0.6666666666666666,Pongamia pinnata (L.) Pierre
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,D,1409195,0.47814407814407817,0.48412698412698413,0.4761904761904761,Pereskia aculeata Mill.
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,D,1416509,0.8215488215488215,0.8015873015873017,0.8666666666666667,Nepenthes vieillardii Hook. f.
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,D,1419807,0.7887205387205386,0.8888888888888888,0.7333333333333334,Vanilla planifolia Jacks. ex Andrews
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,D,1420787,0.823529411764706,0.7777777777777777,0.875,Alocasia odora (Lindl.) K.Koch
+exp_0004_Cmedian_gap_pow_k1.0_p0.5_mid_focal,D,1618661,0.9,0.9,0.9,Dendrobium victoriae-reginae Loher
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,A,1356076,0.17777777777777778,0.17777777777777778,0.19999999999999998,Tradescantia zebrina Heynh. ex Bosse
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,A,1376703,0.4481481481481482,0.5222222222222223,0.4000000000000001,Petiveria alliacea L.
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,A,1384499,0.7956315289648623,0.7405372405372406,0.8611111111111112,Lagenaria siceraria (Molina) Standl.
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,A,1385700,0.7886382623224728,0.7811447811447811,0.8000000000000002,Barringtonia asiatica (L.) Kurz
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,A,1392654,0.8355471220746363,0.746078431372549,0.9523809523809524,Gomphocarpus physocarpus E.Mey.
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,A,1397598,0.7770942507784614,0.7609427609427609,0.8000000000000002,Cobaea scandens Cav.
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,A,1406486,0.5142070863433092,0.5638888888888888,0.48148148148148145,Kigelia africana (Lam.) Benth.
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,A,1406863,0.4599922261091676,0.4678571428571428,0.4615384615384615,Acalypha indica L.
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,A,1408490,0.6157407407407408,0.6455026455026456,0.5925925925925927,Pereskia grandifolia Haw.
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,A,1408557,0.6129629629629629,0.6071428571428571,0.625,Pongamia pinnata (L.) Pierre
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,A,1409195,0.4269434269434269,0.3975468975468975,0.4761904761904761,Pereskia aculeata Mill.
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,A,1416509,0.8962962962962964,0.9333333333333332,0.8666666666666667,Nepenthes vieillardii Hook. f.
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,A,1419807,0.49206349206349204,1.0,0.3333333333333333,Vanilla planifolia Jacks. ex Andrews
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,A,1420787,0.9607843137254902,0.9259259259259259,1.0,Alocasia odora (Lindl.) K.Koch
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,A,1618661,0.8714285714285714,0.8454545454545456,0.9,Dendrobium victoriae-reginae Loher
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,B,1356076,0.17407407407407405,0.18333333333333335,0.16666666666666666,Tradescantia zebrina Heynh. ex Bosse
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,B,1376703,0.6388888888888888,0.6666666666666666,0.6666666666666666,Petiveria alliacea L.
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,B,1384499,0.8331812929514079,0.7297385620915033,0.9722222222222222,Lagenaria siceraria (Molina) Standl.
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,B,1385700,0.5432996632996633,0.447008547008547,0.7333333333333334,Barringtonia asiatica (L.) Kurz
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,B,1392654,0.7758838383838383,0.6793372319688108,0.9047619047619048,Gomphocarpus physocarpus E.Mey.
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,B,1397598,0.7630591630591631,0.7313131313131315,0.8000000000000002,Cobaea scandens Cav.
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,B,1406486,0.5087719298245613,0.5,0.5185185185185185,Kigelia africana (Lam.) Benth.
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,B,1406863,0.595257788806176,0.5604395604395603,0.641025641025641,Acalypha indica L.
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,B,1408490,0.6195286195286195,0.6424501424501424,0.6296296296296297,Pereskia grandifolia Haw.
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,B,1408557,0.43828197945845004,0.4682539682539682,0.4166666666666667,Pongamia pinnata (L.) Pierre
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,B,1409195,0.34927536231884054,0.34259259259259256,0.42857142857142855,Pereskia aculeata Mill.
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,B,1416509,0.8535353535353535,0.7936507936507936,0.9333333333333332,Nepenthes vieillardii Hook. f.
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,B,1419807,0.6444444444444444,0.7000000000000001,0.6,Vanilla planifolia Jacks. ex Andrews
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,B,1420787,0.8799019607843137,0.8472222222222222,0.9166666666666666,Alocasia odora (Lindl.) K.Koch
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,B,1618661,0.8664160401002506,0.869023569023569,0.8666666666666667,Dendrobium victoriae-reginae Loher
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,C,1356076,0.19166666666666665,0.2333333333333333,0.16666666666666666,Tradescantia zebrina Heynh. ex Bosse
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,C,1376703,0.5333333333333333,0.5333333333333333,0.5333333333333333,Petiveria alliacea L.
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,C,1384499,0.7779541446208112,0.6773148148148148,0.9166666666666666,Lagenaria siceraria (Molina) Standl.
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,C,1385700,0.6707070707070707,0.6454545454545455,0.6999999999999998,Barringtonia asiatica (L.) Kurz
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,C,1392654,0.7544191919191919,0.6598440545808967,0.8809523809523809,Gomphocarpus physocarpus E.Mey.
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,C,1397598,0.7151792524790238,0.7054131054131054,0.7333333333333334,Cobaea scandens Cav.
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,C,1406486,0.49548708372237776,0.5814814814814815,0.4444444444444444,Kigelia africana (Lam.) Benth.
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,C,1406863,0.5793650793650794,0.602020202020202,0.5641025641025642,Acalypha indica L.
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,C,1408490,0.6145969498910675,0.6056397306397306,0.6296296296296297,Pereskia grandifolia Haw.
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,C,1408557,0.528657616892911,0.5814814814814815,0.5,Pongamia pinnata (L.) Pierre
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,C,1409195,0.5678733031674209,0.5370370370370371,0.6190476190476191,Pereskia aculeata Mill.
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,C,1416509,0.8030303030303031,0.7658730158730158,0.8666666666666667,Nepenthes vieillardii Hook. f.
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,C,1419807,0.3952380952380952,0.5222222222222223,0.3333333333333333,Vanilla planifolia Jacks. ex Andrews
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,C,1420787,0.9237472766884531,0.8592592592592592,1.0,Alocasia odora (Lindl.) K.Koch
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,C,1618661,0.8441558441558441,0.7954545454545455,0.9,Dendrobium victoriae-reginae Loher
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,D,1356076,0.20098965362123256,0.2888888888888889,0.16666666666666666,Tradescantia zebrina Heynh. ex Bosse
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,D,1376703,0.41111111111111115,0.37142857142857144,0.4666666666666666,Petiveria alliacea L.
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,D,1384499,0.747936507936508,0.665954415954416,0.8611111111111112,Lagenaria siceraria (Molina) Standl.
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,D,1385700,0.677979797979798,0.5904761904761905,0.8000000000000002,Barringtonia asiatica (L.) Kurz
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,D,1392654,0.7213698382578838,0.6249766573295986,0.8571428571428571,Gomphocarpus physocarpus E.Mey.
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,D,1397598,0.7301587301587301,0.6969696969696969,0.7666666666666666,Cobaea scandens Cav.
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,D,1406486,0.42637362637362636,0.6,0.3333333333333333,Kigelia africana (Lam.) Benth.
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,D,1406863,0.5386243386243387,0.6785714285714285,0.4615384615384615,Acalypha indica L.
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,D,1408490,0.6290448343079922,0.5973063973063973,0.6666666666666666,Pereskia grandifolia Haw.
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,D,1408557,0.5793650793650793,0.49273504273504276,0.7083333333333334,Pongamia pinnata (L.) Pierre
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,D,1409195,0.4777777777777778,0.4916666666666667,0.4761904761904761,Pereskia aculeata Mill.
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,D,1416509,0.8407407407407407,0.8380952380952381,0.8666666666666667,Nepenthes vieillardii Hook. f.
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,D,1419807,0.6313131313131314,0.6944444444444443,0.6000000000000001,Vanilla planifolia Jacks. ex Andrews
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,D,1420787,0.9277605779153767,0.872053872053872,1.0,Alocasia odora (Lindl.) K.Koch
+exp_0005_Cmedian_gap_pow_k2.0_p0.5_mid_focal,D,1618661,0.8857142857142857,0.8727272727272727,0.9,Dendrobium victoriae-reginae Loher
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,A,1356076,0.17777777777777778,0.17777777777777778,0.19999999999999998,Tradescantia zebrina Heynh. ex Bosse
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,A,1376703,0.4481481481481482,0.5222222222222223,0.4000000000000001,Petiveria alliacea L.
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,A,1384499,0.7956315289648623,0.7405372405372406,0.8611111111111112,Lagenaria siceraria (Molina) Standl.
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,A,1385700,0.7886382623224728,0.7811447811447811,0.8000000000000002,Barringtonia asiatica (L.) Kurz
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,A,1392654,0.8355471220746363,0.746078431372549,0.9523809523809524,Gomphocarpus physocarpus E.Mey.
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,A,1397598,0.7770942507784614,0.7609427609427609,0.8000000000000002,Cobaea scandens Cav.
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,A,1406486,0.5142070863433092,0.5638888888888888,0.48148148148148145,Kigelia africana (Lam.) Benth.
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,A,1406863,0.4599922261091676,0.4678571428571428,0.4615384615384615,Acalypha indica L.
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,A,1408490,0.6157407407407408,0.6455026455026456,0.5925925925925927,Pereskia grandifolia Haw.
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,A,1408557,0.6129629629629629,0.6071428571428571,0.625,Pongamia pinnata (L.) Pierre
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,A,1409195,0.4269434269434269,0.3975468975468975,0.4761904761904761,Pereskia aculeata Mill.
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,A,1416509,0.8962962962962964,0.9333333333333332,0.8666666666666667,Nepenthes vieillardii Hook. f.
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,A,1419807,0.49206349206349204,1.0,0.3333333333333333,Vanilla planifolia Jacks. ex Andrews
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,A,1420787,0.9607843137254902,0.9259259259259259,1.0,Alocasia odora (Lindl.) K.Koch
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,A,1618661,0.8714285714285714,0.8454545454545456,0.9,Dendrobium victoriae-reginae Loher
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,B,1356076,0.27652464494569756,0.36574074074074076,0.2333333333333333,Tradescantia zebrina Heynh. ex Bosse
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,B,1376703,0.49607843137254903,0.4150793650793651,0.6666666666666666,Petiveria alliacea L.
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,B,1384499,0.7014285714285715,0.6134615384615385,0.8333333333333334,Lagenaria siceraria (Molina) Standl.
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,B,1385700,0.6294149221685453,0.5619909502262443,0.7333333333333334,Barringtonia asiatica (L.) Kurz
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,B,1392654,0.7844718532574321,0.6937908496732025,0.9047619047619048,Gomphocarpus physocarpus E.Mey.
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,B,1397598,0.7630591630591631,0.7313131313131315,0.8000000000000002,Cobaea scandens Cav.
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,B,1406486,0.49807273336685104,0.6064814814814815,0.4444444444444444,Kigelia africana (Lam.) Benth.
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,B,1406863,0.6115270935960592,0.5888888888888889,0.6410256410256411,Acalypha indica L.
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,B,1408490,0.6658496732026143,0.7658730158730159,0.5925925925925927,Pereskia grandifolia Haw.
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,B,1408557,0.47035573122529645,0.36349206349206353,0.6666666666666666,Pongamia pinnata (L.) Pierre
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,B,1409195,0.48774509803921573,0.40598290598290604,0.6190476190476191,Pereskia aculeata Mill.
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,B,1416509,0.865993265993266,0.8777777777777778,0.8666666666666667,Nepenthes vieillardii Hook. f.
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,B,1419807,0.6646464646464646,0.6722222222222222,0.6666666666666666,Vanilla planifolia Jacks. ex Andrews
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,B,1420787,0.7844896331738437,0.7007575757575758,0.9166666666666666,Alocasia odora (Lindl.) K.Koch
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,B,1618661,0.8584415584415584,0.8227272727272728,0.9,Dendrobium victoriae-reginae Loher
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,C,1356076,0.1736694677871148,0.2619047619047619,0.13333333333333333,Tradescantia zebrina Heynh. ex Bosse
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,C,1376703,0.5670995670995671,0.5,0.6666666666666666,Petiveria alliacea L.
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,C,1384499,0.779628647214854,0.7162249515190692,0.8611111111111112,Lagenaria siceraria (Molina) Standl.
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,C,1385700,0.6345431272967504,0.528657616892911,0.8000000000000002,Barringtonia asiatica (L.) Kurz
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,C,1392654,0.791919191919192,0.706140350877193,0.9047619047619048,Gomphocarpus physocarpus E.Mey.
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,C,1397598,0.7327561327561328,0.7035353535353535,0.7666666666666666,Cobaea scandens Cav.
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,C,1406486,0.5111111111111111,0.6888888888888888,0.4074074074074074,Kigelia africana (Lam.) Benth.
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,C,1406863,0.5804787000439174,0.6713804713804713,0.5128205128205128,Acalypha indica L.
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,C,1408490,0.596078431372549,0.6527777777777777,0.5555555555555556,Pereskia grandifolia Haw.
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,C,1408557,0.4400707651481645,0.436026936026936,0.4583333333333333,Pongamia pinnata (L.) Pierre
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,C,1409195,0.5737556561085974,0.5472222222222222,0.6190476190476191,Pereskia aculeata Mill.
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,C,1416509,0.7851851851851852,0.85,0.7333333333333334,Nepenthes vieillardii Hook. f.
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,C,1419807,0.557142857142857,0.7555555555555555,0.4666666666666666,Vanilla planifolia Jacks. ex Andrews
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,C,1420787,0.8774509803921569,0.8425925925925926,0.9166666666666666,Alocasia odora (Lindl.) K.Koch
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,C,1618661,0.8441558441558441,0.7954545454545455,0.9,Dendrobium victoriae-reginae Loher
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,D,1356076,0.2074074074074074,0.2833333333333334,0.16666666666666666,Tradescantia zebrina Heynh. ex Bosse
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,D,1376703,0.4222222222222222,0.45,0.4000000000000001,Petiveria alliacea L.
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,D,1384499,0.7528735632183907,0.6531862745098039,0.8888888888888888,Lagenaria siceraria (Molina) Standl.
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,D,1385700,0.7080745341614906,0.6380286380286381,0.8000000000000002,Barringtonia asiatica (L.) Kurz
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,D,1392654,0.800260671228413,0.718266253869969,0.9047619047619048,Gomphocarpus physocarpus E.Mey.
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,D,1397598,0.7770942507784614,0.7609427609427609,0.8000000000000002,Cobaea scandens Cav.
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,D,1406486,0.510989010989011,0.85,0.3703703703703703,Kigelia africana (Lam.) Benth.
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,D,1406863,0.5860805860805861,0.6558857808857809,0.5384615384615384,Acalypha indica L.
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,D,1408490,0.6464285714285715,0.7532467532467533,0.5925925925925927,Pereskia grandifolia Haw.
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,D,1408557,0.6305555555555555,0.6130952380952381,0.6666666666666666,Pongamia pinnata (L.) Pierre
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,D,1409195,0.5721468074409252,0.5416666666666666,0.6190476190476191,Pereskia aculeata Mill.
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,D,1416509,0.8053872053872054,0.8222222222222223,0.8000000000000002,Nepenthes vieillardii Hook. f.
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,D,1419807,0.6349206349206349,0.8333333333333334,0.5333333333333333,Vanilla planifolia Jacks. ex Andrews
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,D,1420787,0.823529411764706,0.7777777777777777,0.875,Alocasia odora (Lindl.) K.Koch
+exp_0006_Cmedian_gap_pow_k0.5_p0.5_mid_focal,D,1618661,0.8714285714285714,0.8454545454545456,0.9,Dendrobium victoriae-reginae Loher
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,A,1356076,0.09206349206349207,0.15,0.06666666666666667,Tradescantia zebrina Heynh. ex Bosse
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,A,1376703,0.35555555555555557,0.3833333333333333,0.3333333333333333,Petiveria alliacea L.
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,A,1384499,0.7692307692307693,0.7142857142857143,0.8333333333333334,Lagenaria siceraria (Molina) Standl.
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,A,1385700,0.7655502392344498,0.7407407407407406,0.8000000000000002,Barringtonia asiatica (L.) Kurz
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,A,1392654,0.8522875816993464,0.775,0.9523809523809524,Gomphocarpus physocarpus E.Mey.
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,A,1397598,0.7886382623224728,0.7811447811447811,0.8000000000000002,Cobaea scandens Cav.
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,A,1406486,0.6544117647058824,0.7321428571428572,0.5925925925925927,Kigelia africana (Lam.) Benth.
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,A,1406863,0.46555555555555556,0.5,0.4358974358974359,Acalypha indica L.
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,A,1408490,0.573529411764706,0.6428571428571429,0.5185185185185185,Pereskia grandifolia Haw.
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,A,1408557,0.6405228758169934,0.7566137566137566,0.5833333333333334,Pongamia pinnata (L.) Pierre
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,A,1409195,0.5194444444444445,0.47685185185185186,0.5714285714285715,Pereskia aculeata Mill.
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,A,1416509,0.8666666666666667,0.8666666666666667,0.8666666666666667,Nepenthes vieillardii Hook. f.
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,A,1419807,0.5555555555555555,0.8333333333333334,0.46666666666666673,Vanilla planifolia Jacks. ex Andrews
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,A,1420787,0.8382352941176471,0.8055555555555555,0.875,Alocasia odora (Lindl.) K.Koch
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,A,1618661,0.8584415584415584,0.8227272727272728,0.9,Dendrobium victoriae-reginae Loher
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,B,1356076,0.2031746031746032,0.27499999999999997,0.16666666666666666,Tradescantia zebrina Heynh. ex Bosse
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,B,1376703,0.5495726495726495,0.44285714285714284,0.7333333333333334,Petiveria alliacea L.
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,B,1384499,0.8469895536562203,0.7884004884004884,0.9166666666666666,Lagenaria siceraria (Molina) Standl.
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,B,1385700,0.6260317460317459,0.5164021164021163,0.8000000000000002,Barringtonia asiatica (L.) Kurz
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,B,1392654,0.7726254480286738,0.6774608833432363,0.9047619047619048,Gomphocarpus physocarpus E.Mey.
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,B,1397598,0.7080745341614906,0.6380286380286381,0.8000000000000002,Cobaea scandens Cav.
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,B,1406486,0.4901960784313726,0.5086580086580087,0.48148148148148145,Kigelia africana (Lam.) Benth.
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,B,1406863,0.5858585858585857,0.6587301587301587,0.5384615384615384,Acalypha indica L.
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,B,1408490,0.6456140350877192,0.6499999999999999,0.6666666666666666,Pereskia grandifolia Haw.
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,B,1408557,0.5245726495726496,0.6416666666666667,0.4583333333333333,Pongamia pinnata (L.) Pierre
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,B,1409195,0.5914786967418546,0.5476190476190476,0.6666666666666666,Pereskia aculeata Mill.
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,B,1416509,0.8407407407407407,0.8380952380952381,0.8666666666666667,Nepenthes vieillardii Hook. f.
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,B,1419807,0.6444444444444444,0.7000000000000001,0.6,Vanilla planifolia Jacks. ex Andrews
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,B,1420787,0.8799019607843137,0.8472222222222222,0.9166666666666666,Alocasia odora (Lindl.) K.Koch
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,B,1618661,0.8727272727272727,0.85,0.9,Dendrobium victoriae-reginae Loher
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,C,1356076,0.20343137254901963,0.2619047619047619,0.16666666666666666,Tradescantia zebrina Heynh. ex Bosse
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,C,1376703,0.46455026455026455,0.4314814814814814,0.5333333333333333,Petiveria alliacea L.
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,C,1384499,0.8252611585944919,0.7507936507936508,0.9166666666666666,Lagenaria siceraria (Molina) Standl.
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,C,1385700,0.7036789297658862,0.6384615384615385,0.8000000000000002,Barringtonia asiatica (L.) Kurz
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,C,1392654,0.7876400560224089,0.7193121693121692,0.880952380952381,Gomphocarpus physocarpus E.Mey.
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,C,1397598,0.8296296296296296,0.8666666666666667,0.8000000000000002,Cobaea scandens Cav.
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,C,1406486,0.4540763673890609,0.4666666666666666,0.4444444444444444,Kigelia africana (Lam.) Benth.
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,C,1406863,0.5642135642135643,0.6053872053872055,0.5384615384615384,Acalypha indica L.
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,C,1408490,0.6647058823529411,0.6704545454545454,0.6666666666666666,Pereskia grandifolia Haw.
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,C,1408557,0.5710784313725491,0.5601851851851852,0.5833333333333334,Pongamia pinnata (L.) Pierre
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,C,1409195,0.4873015873015873,0.4576719576719577,0.5238095238095238,Pereskia aculeata Mill.
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,C,1416509,0.8296296296296296,0.8666666666666667,0.8000000000000002,Nepenthes vieillardii Hook. f.
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,C,1419807,0.611111111111111,0.7222222222222222,0.5333333333333333,Vanilla planifolia Jacks. ex Andrews
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,C,1420787,0.9107142857142857,0.9583333333333334,0.875,Alocasia odora (Lindl.) K.Koch
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,C,1618661,0.8714285714285714,0.8454545454545456,0.9,Dendrobium victoriae-reginae Loher
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,D,1356076,0.14814814814814814,0.16666666666666666,0.13333333333333333,Tradescantia zebrina Heynh. ex Bosse
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,D,1376703,0.5956043956043956,0.5148148148148148,0.7333333333333334,Petiveria alliacea L.
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,D,1384499,0.7250088183421517,0.6613247863247863,0.8055555555555557,Lagenaria siceraria (Molina) Standl.
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,D,1385700,0.7282765543635108,0.6697746697746698,0.8000000000000002,Barringtonia asiatica (L.) Kurz
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,D,1392654,0.8049242424242425,0.7105263157894738,0.9285714285714285,Gomphocarpus physocarpus E.Mey.
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,D,1397598,0.7757575757575758,0.7555555555555555,0.8000000000000002,Cobaea scandens Cav.
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,D,1406486,0.5849673202614379,0.6765873015873017,0.5185185185185185,Kigelia africana (Lam.) Benth.
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,D,1406863,0.5640096618357487,0.5991341991341992,0.5384615384615384,Acalypha indica L.
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,D,1408490,0.632954936360509,0.6388888888888888,0.6296296296296297,Pereskia grandifolia Haw.
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,D,1408557,0.6045505921666913,0.5322455322455322,0.7083333333333334,Pongamia pinnata (L.) Pierre
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,D,1409195,0.427170868347339,0.391005291005291,0.4761904761904762,Pereskia aculeata Mill.
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,D,1416509,0.8417508417508417,0.8333333333333334,0.8666666666666667,Nepenthes vieillardii Hook. f.
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,D,1419807,0.7851851851851852,0.85,0.7333333333333334,Vanilla planifolia Jacks. ex Andrews
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,D,1420787,0.8867102396514163,0.825925925925926,0.9583333333333334,Alocasia odora (Lindl.) K.Koch
+exp_0007_Cmedian_gap_pow_k1.0_p0.5_mid_focalg1.0,D,1618661,0.8857142857142857,0.8727272727272727,0.9,Dendrobium victoriae-reginae Loher
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,A,1356076,0.10317460317460318,0.25,0.06666666666666667,Tradescantia zebrina Heynh. ex Bosse
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,A,1376703,0.4481481481481482,0.44285714285714284,0.4666666666666666,Petiveria alliacea L.
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,A,1384499,0.7646913580246913,0.7307692307692308,0.8055555555555557,Lagenaria siceraria (Molina) Standl.
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,A,1385700,0.8013366750208855,0.8053872053872054,0.8000000000000002,Barringtonia asiatica (L.) Kurz
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,A,1392654,0.8673093560746509,0.8146241830065359,0.9285714285714285,Gomphocarpus physocarpus E.Mey.
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,A,1397598,0.8140350877192982,0.8296296296296296,0.8000000000000002,Cobaea scandens Cav.
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,A,1406486,0.4851851851851852,0.5423280423280423,0.4444444444444444,Kigelia africana (Lam.) Benth.
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,A,1406863,0.5151515151515152,0.5858585858585859,0.4615384615384615,Acalypha indica L.
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,A,1408490,0.6018518518518519,0.6613756613756614,0.5555555555555556,Pereskia grandifolia Haw.
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,A,1408557,0.5643323996265172,0.5978835978835979,0.5416666666666666,Pongamia pinnata (L.) Pierre
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,A,1409195,0.40952380952380957,0.39285714285714285,0.42857142857142855,Pereskia aculeata Mill.
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,A,1416509,0.865993265993266,0.8777777777777778,0.8666666666666667,Nepenthes vieillardii Hook. f.
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,A,1419807,0.6166666666666667,0.7555555555555555,0.5333333333333333,Vanilla planifolia Jacks. ex Andrews
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,A,1420787,0.9019607843137255,0.8518518518518517,0.9583333333333334,Alocasia odora (Lindl.) K.Koch
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,A,1618661,0.8857142857142857,0.8727272727272727,0.9,Dendrobium victoriae-reginae Loher
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,B,1356076,0.2031746031746032,0.27499999999999997,0.16666666666666666,Tradescantia zebrina Heynh. ex Bosse
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,B,1376703,0.5370370370370371,0.5,0.6,Petiveria alliacea L.
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,B,1384499,0.766453810131971,0.6943187531422826,0.8611111111111112,Lagenaria siceraria (Molina) Standl.
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,B,1385700,0.6581196581196581,0.5446428571428571,0.8333333333333334,Barringtonia asiatica (L.) Kurz
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,B,1392654,0.8011385199240987,0.7215686274509804,0.9047619047619048,Gomphocarpus physocarpus E.Mey.
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,B,1397598,0.7503607503607505,0.7070707070707071,0.8000000000000002,Cobaea scandens Cav.
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,B,1406486,0.5405228758169934,0.621031746031746,0.48148148148148145,Kigelia africana (Lam.) Benth.
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,B,1406863,0.6103896103896104,0.6944444444444443,0.5641025641025642,Acalypha indica L.
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,B,1408490,0.6906318082788672,0.7175925925925926,0.6666666666666666,Pereskia grandifolia Haw.
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,B,1408557,0.5897435897435898,0.7222222222222222,0.5,Pongamia pinnata (L.) Pierre
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,B,1409195,0.5516339869281045,0.5,0.619047619047619,Pereskia aculeata Mill.
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,B,1416509,0.865993265993266,0.8777777777777778,0.8666666666666667,Nepenthes vieillardii Hook. f.
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,B,1419807,0.6722222222222222,0.7833333333333333,0.6,Vanilla planifolia Jacks. ex Andrews
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,B,1420787,0.8468782249742001,0.7933501683501684,0.9166666666666666,Alocasia odora (Lindl.) K.Koch
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,B,1618661,0.9,0.9,0.9,Dendrobium victoriae-reginae Loher
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,C,1356076,0.1346153846153846,0.2222222222222222,0.10000000000000002,Tradescantia zebrina Heynh. ex Bosse
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,C,1376703,0.4904761904761905,0.4243386243386243,0.6,Petiveria alliacea L.
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,C,1384499,0.8106227106227105,0.7474816849816849,0.8888888888888888,Lagenaria siceraria (Molina) Standl.
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,C,1385700,0.724848484848485,0.6444444444444444,0.8333333333333334,Barringtonia asiatica (L.) Kurz
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,C,1392654,0.8053872053872054,0.7682186234817814,0.8571428571428571,Gomphocarpus physocarpus E.Mey.
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,C,1397598,0.7687400318979266,0.7777777777777777,0.7666666666666666,Cobaea scandens Cav.
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,C,1406486,0.44575163398692813,0.5,0.4074074074074074,Kigelia africana (Lam.) Benth.
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,C,1406863,0.4663299663299663,0.6336700336700337,0.38461538461538464,Acalypha indica L.
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,C,1408490,0.6566047471620227,0.6940476190476191,0.6296296296296297,Pereskia grandifolia Haw.
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,C,1408557,0.6182001005530418,0.6793650793650793,0.5833333333333334,Pongamia pinnata (L.) Pierre
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,C,1409195,0.544063779357897,0.5317460317460317,0.5714285714285715,Pereskia aculeata Mill.
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,C,1416509,0.8796296296296297,1.0,0.7999999999999999,Nepenthes vieillardii Hook. f.
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,C,1419807,0.6447811447811448,0.7222222222222222,0.6,Vanilla planifolia Jacks. ex Andrews
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,C,1420787,0.9055383556931544,0.872053872053872,0.9583333333333334,Alocasia odora (Lindl.) K.Koch
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,C,1618661,0.8571428571428571,0.8181818181818182,0.9,Dendrobium victoriae-reginae Loher
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,D,1356076,0.07692307692307693,0.0625,0.09999999999999999,Tradescantia zebrina Heynh. ex Bosse
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,D,1376703,0.49230769230769234,0.425,0.6,Petiveria alliacea L.
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,D,1384499,0.7699905033238367,0.7167277167277167,0.8333333333333334,Lagenaria siceraria (Molina) Standl.
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,D,1385700,0.7515151515151516,0.7111111111111111,0.8000000000000002,Barringtonia asiatica (L.) Kurz
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,D,1392654,0.7970981158836947,0.6996388028895768,0.9285714285714285,Gomphocarpus physocarpus E.Mey.
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,D,1397598,0.7792524790236461,0.7680911680911681,0.8000000000000002,Cobaea scandens Cav.
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,D,1406486,0.6555555555555556,0.746031746031746,0.5925925925925926,Kigelia africana (Lam.) Benth.
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,D,1406863,0.6066666666666666,0.7175324675324676,0.5384615384615384,Acalypha indica L.
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,D,1408490,0.6165577342047931,0.6435185185185185,0.5925925925925927,Pereskia grandifolia Haw.
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,D,1408557,0.580952380952381,0.532967032967033,0.6666666666666666,Pongamia pinnata (L.) Pierre
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,D,1409195,0.425,0.4814814814814814,0.42857142857142855,Pereskia aculeata Mill.
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,D,1416509,0.8374218374218375,0.7962962962962964,0.9333333333333332,Nepenthes vieillardii Hook. f.
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,D,1419807,0.5909090909090909,0.611111111111111,0.6,Vanilla planifolia Jacks. ex Andrews
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,D,1420787,0.8624727668845317,0.8175925925925926,0.9166666666666666,Alocasia odora (Lindl.) K.Koch
+exp_0008_Cmedian_gap_pow_k1.0_p0.5_mid_ce,D,1618661,0.8857142857142857,0.8727272727272727,0.9,Dendrobium victoriae-reginae Loher
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,A,1356076,0.14017094017094017,0.24444444444444446,0.10000000000000002,Tradescantia zebrina Heynh. ex Bosse
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,A,1376703,0.43333333333333335,0.48888888888888893,0.4000000000000001,Petiveria alliacea L.
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,A,1384499,0.7899199565866232,0.7117063492063492,0.8888888888888888,Lagenaria siceraria (Molina) Standl.
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,A,1385700,0.7304625199362041,0.7037037037037037,0.7666666666666666,Barringtonia asiatica (L.) Kurz
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,A,1392654,0.8250244379276638,0.7285861713106295,0.9523809523809524,Gomphocarpus physocarpus E.Mey.
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,A,1397598,0.7313131313131315,0.6793650793650793,0.8000000000000002,Cobaea scandens Cav.
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,A,1406486,0.5476190476190476,0.7238095238095239,0.4444444444444444,Kigelia africana (Lam.) Benth.
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,A,1406863,0.40079365079365087,0.4583333333333333,0.35897435897435903,Acalypha indica L.
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,A,1408490,0.6034858387799565,0.6712962962962963,0.5555555555555556,Pereskia grandifolia Haw.
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,A,1408557,0.6266339869281046,0.6316137566137566,0.625,Pongamia pinnata (L.) Pierre
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,A,1409195,0.5168091168091168,0.48484848484848486,0.5714285714285715,Pereskia aculeata Mill.
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,A,1416509,0.8962962962962964,0.9333333333333332,0.8666666666666667,Nepenthes vieillardii Hook. f.
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,A,1419807,0.4497354497354497,0.8333333333333334,0.3333333333333333,Vanilla planifolia Jacks. ex Andrews
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,A,1420787,0.9387254901960785,0.9212962962962963,0.9583333333333334,Alocasia odora (Lindl.) K.Koch
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,A,1618661,0.8584415584415584,0.8227272727272728,0.9,Dendrobium victoriae-reginae Loher
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,B,1356076,0.1784313725490196,0.1952380952380952,0.16666666666666666,Tradescantia zebrina Heynh. ex Bosse
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,B,1376703,0.5905723905723905,0.5888888888888889,0.6,Petiveria alliacea L.
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,B,1384499,0.7656940760389036,0.6918767507002802,0.8611111111111112,Lagenaria siceraria (Molina) Standl.
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,B,1385700,0.6806349206349207,0.597979797979798,0.8000000000000002,Barringtonia asiatica (L.) Kurz
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,B,1392654,0.721899779964296,0.6155563674745261,0.8809523809523809,Gomphocarpus physocarpus E.Mey.
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,B,1397598,0.7515151515151516,0.7111111111111111,0.8000000000000002,Cobaea scandens Cav.
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,B,1406486,0.5021052631578947,0.48214285714285715,0.5555555555555556,Kigelia africana (Lam.) Benth.
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,B,1406863,0.5499823633156966,0.5388888888888889,0.564102564102564,Acalypha indica L.
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,B,1408490,0.6627450980392157,0.6325757575757576,0.7037037037037037,Pereskia grandifolia Haw.
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,B,1408557,0.6747109100050276,0.7185185185185187,0.6666666666666666,Pongamia pinnata (L.) Pierre
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,B,1409195,0.41221741221741226,0.4307359307359307,0.42857142857142855,Pereskia aculeata Mill.
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,B,1416509,0.8363636363636364,0.8111111111111112,0.8666666666666667,Nepenthes vieillardii Hook. f.
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,B,1419807,0.6444444444444444,0.6404761904761904,0.6666666666666666,Vanilla planifolia Jacks. ex Andrews
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,B,1420787,0.7512899896800826,0.6868686868686869,0.8333333333333334,Alocasia odora (Lindl.) K.Koch
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,B,1618661,0.8307692307692308,0.7875,0.9,Dendrobium victoriae-reginae Loher
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,C,1356076,0.23684210526315788,0.2962962962962963,0.20000000000000004,Tradescantia zebrina Heynh. ex Bosse
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,C,1376703,0.4744884744884745,0.4444444444444444,0.5333333333333333,Petiveria alliacea L.
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,C,1384499,0.8058608058608058,0.7202380952380952,0.9166666666666666,Lagenaria siceraria (Molina) Standl.
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,C,1385700,0.6981818181818182,0.6222222222222222,0.8000000000000002,Barringtonia asiatica (L.) Kurz
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,C,1392654,0.7401960784313726,0.6388888888888888,0.8809523809523809,Gomphocarpus physocarpus E.Mey.
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,C,1397598,0.8038277511961723,0.8148148148148148,0.8000000000000002,Cobaea scandens Cav.
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,C,1406486,0.4212962962962963,0.43915343915343913,0.4074074074074074,Kigelia africana (Lam.) Benth.
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,C,1406863,0.5400790513833992,0.611111111111111,0.4871794871794872,Acalypha indica L.
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,C,1408490,0.6074074074074074,0.5614478114478115,0.6666666666666666,Pereskia grandifolia Haw.
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,C,1408557,0.5196651760119252,0.47003367003367,0.5833333333333334,Pongamia pinnata (L.) Pierre
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,C,1409195,0.45610859728506786,0.4472222222222222,0.4761904761904762,Pereskia aculeata Mill.
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,C,1416509,0.8000000000000002,0.8000000000000002,0.8000000000000002,Nepenthes vieillardii Hook. f.
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,C,1419807,0.7666666666666666,0.9333333333333332,0.6666666666666666,Vanilla planifolia Jacks. ex Andrews
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,C,1420787,0.8634920634920634,0.9523809523809524,0.7916666666666666,Alocasia odora (Lindl.) K.Koch
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,C,1618661,0.8714285714285714,0.8454545454545456,0.9,Dendrobium victoriae-reginae Loher
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,D,1356076,0.22291021671826625,0.25396825396825395,0.20000000000000004,Tradescantia zebrina Heynh. ex Bosse
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,D,1376703,0.5317460317460317,0.42063492063492064,0.7333333333333334,Petiveria alliacea L.
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,D,1384499,0.7699905033238367,0.7167277167277167,0.8333333333333334,Lagenaria siceraria (Molina) Standl.
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,D,1385700,0.7061923583662715,0.6324786324786325,0.8000000000000002,Barringtonia asiatica (L.) Kurz
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,D,1392654,0.757249918540241,0.6790505675954592,0.8571428571428571,Gomphocarpus physocarpus E.Mey.
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,D,1397598,0.7886382623224728,0.7811447811447811,0.8000000000000002,Cobaea scandens Cav.
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,D,1406486,0.6004901960784313,0.6547619047619048,0.5555555555555556,Kigelia africana (Lam.) Benth.
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,D,1406863,0.5917874396135265,0.7138528138528139,0.5128205128205128,Acalypha indica L.
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,D,1408490,0.6171310629514964,0.6083333333333333,0.6296296296296297,Pereskia grandifolia Haw.
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,D,1408557,0.5948879551820728,0.5473646723646723,0.6666666666666666,Pongamia pinnata (L.) Pierre
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,D,1409195,0.43452380952380953,0.4021164021164021,0.4761904761904762,Pereskia aculeata Mill.
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,D,1416509,0.7730769230769231,0.8083333333333332,0.7999999999999999,Nepenthes vieillardii Hook. f.
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,D,1419807,0.7000000000000001,0.8666666666666667,0.6,Vanilla planifolia Jacks. ex Andrews
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,D,1420787,0.8627450980392156,0.8148148148148149,0.9166666666666666,Alocasia odora (Lindl.) K.Koch
+exp_0009_Cmedian_gap_pow_k1.0_p0.5_mid_focalg3.0,D,1618661,0.8857142857142857,0.8727272727272727,0.9,Dendrobium victoriae-reginae Loher

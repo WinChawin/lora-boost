@@ -1,0 +1,400 @@
+species_id,scientific_name,is_rare,n_total,n_train
+1416509,Nepenthes vieillardii Hook. f.,True,30,20
+1419807,Vanilla planifolia Jacks. ex Andrews,True,33,23
+1376703,Petiveria alliacea L.,True,38,28
+1409195,Pereskia aculeata Mill.,True,47,33
+1408557,Pongamia pinnata (L.) Pierre,True,52,36
+1420787,Alocasia odora (Lindl.) K.Koch,True,54,38
+1406486,Kigelia africana (Lam.) Benth.,True,55,37
+1408490,Pereskia grandifolia Haw.,True,58,40
+1385700,Barringtonia asiatica (L.) Kurz,True,67,47
+1356076,Tradescantia zebrina Heynh. ex Bosse,True,69,49
+1397598,Cobaea scandens Cav.,True,69,49
+1618661,Dendrobium victoriae-reginae Loher,True,71,51
+1384499,Lagenaria siceraria (Molina) Standl.,True,80,56
+1406863,Acalypha indica L.,True,92,66
+1392654,Gomphocarpus physocarpus E.Mey.,True,99,71
+1356037,Egeria densa Planch.,False,17,13
+1367938,Acacia drepanolobium Harms ex Y. Sjöstedt,False,17,13
+1412412,Lactuca biennis (Moench) Fernald,False,17,13
+1355955,Pelargonium odoratissimum (L.) L'Hér.,False,18,14
+1358302,Fibigia clypeata (L.) Medik.,False,18,14
+1367267,Crotalaria polysperma Kotschy,False,18,14
+1373231,Pelargonium quinquelobatum Hochst. ex A. Rich.,False,18,12
+1374448,Aspilia mossambicensis (Oliv.) Wild,False,18,14
+1394580,Angelica razulii Gouan,False,18,14
+1409834,Neolamarckia cadamba (Roxb.) Bosser,False,18,14
+1441375,Cirsium horridulum Michx.,False,18,14
+1358097,Sedum andegavense (DC.) Desv.,False,19,13
+1374933,Montanoa hibiscifolia Benth.,False,19,13
+1419942,Hebe franciscana (Eastw.) Souster,False,19,13
+1363019,Cenchrus purpureus (Schumach.) Morrone,False,20,12
+1394995,Pyracantha rogersiana (A.B.Jacks.) Coltm.-Rog.,False,20,14
+1413013,Aralia racemosa L.,False,21,13
+1434326,Lupinus texensis Hook.,False,21,15
+1363688,Crotalaria juncea L.,False,22,16
+1391113,Chaerophyllum villarsii W.D.J.Koch,False,22,16
+1397550,Sedum montanum Perrier & Songeon,False,22,16
+1408451,Paederia foetida L.,False,22,16
+1373151,Pelargonium alchemilloides (L.) L'Hér.,False,24,16
+1391967,Epipactis purpurata Sm.,False,24,18
+1363489,Phalaris aquatica L.,False,26,18
+1391190,Cirsium dissectum (L.) Hill,False,26,18
+1421001,Pelargonium spp.,False,26,18
+1393253,Hypericum nummularium L.,False,27,19
+1433158,Hypericum hypericoides (L.) Crantz,False,27,17
+1441349,Cirsium altissimum (L.) Hill,False,27,17
+1358096,Sedum amplexicaule DC.,False,28,20
+1359332,Lupinus micranthus Guss.,False,28,18
+1393245,Hypericum elodes L.,False,28,20
+1568914,Acacia saligna (Labill.) Wendl.,False,28,20
+1357681,Lactuca saligna L.,False,29,21
+1363872,Barbarea intermedia Boreau,False,30,20
+1359528,Trifolium subterraneum L.,False,31,21
+1362080,Nymphaea lotus L.,False,31,23
+1392690,Hebe brachysiphon Summerh.,False,31,23
+1360427,Oldenlandia corymbosa L.,False,32,24
+1370279,Gymnosporia putterlickioides Loes.,False,32,22
+1379513,Hypericum annulatum Moris,False,32,24
+1363463,Cenchrus ciliaris L.,False,33,23
+1419086,Garrya elliptica Douglas ex Lindl.,False,33,23
+1406426,Crotalaria pallida Aiton,False,35,25
+1392653,Gomphocarpus fruticosus (L.) R.Br.,False,37,25
+1363772,Acacia pycnantha Benth.,False,38,26
+1394508,Anemone trifolia L.,False,38,28
+1392093,Erucastrum gallicum (Willd.) O.E.Schulz,False,39,27
+1409746,Lactuca floridana (L.) Gaertn.,False,39,29
+1412413,Lactuca canadensis L.,False,40,28
+1412662,Maianthemum stellatum (L.) Link,False,40,28
+1397349,Chaerophyllum bulbosum L.,False,41,29
+1398130,Hypericum olympicum L.,False,41,29
+1358704,Hypericum montanum L.,False,43,29
+1359510,Trifolium ochroleucon Huds.,False,45,33
+1403826,Pereskia bleo (Kunth) DC.,False,45,31
+1413391,Pyracantha coccinea M. Roem.,False,45,33
+1391250,Cirsium tuberosum (L.) All.,False,48,34
+1393823,Mercurialis tomentosa L.,False,48,34
+1394383,Pancratium illyricum L.,False,48,34
+1434011,Liriope muscari (Decne.) L.H. Bailey,False,49,35
+1420792,Daphne odora Thunb.,False,51,35
+1389966,Cenchrus longisetus M.C.Johnst.,False,52,36
+1408214,Hypericum lanceolatum Lam.,False,52,36
+1389567,Acacia saligna (Labill.) H.L.Wendl.,False,53,37
+1391648,Daphne alpina L.,False,53,37
+1399920,Angelica atropurpurea L.,False,53,37
+1402811,Crotalaria retusa L.,False,53,37
+1413757,Sedum ternatum Michx.,False,53,37
+1418984,Lupinus albifrons Benth.,False,57,39
+1412410,Anemone virginiana L.,False,58,40
+1664348,Hepatica nobilis Mill.,False,58,40
+1408979,Fragaria chiloensis (L.) Mill.,False,59,43
+1358760,Lavandula multifida L.,False,61,41
+1400104,Acacia baileyana F.Muell.,False,61,43
+1412697,Mertensia maritima (L.) Gray,False,62,44
+1411760,Diervilla lonicera Mill.,False,65,47
+1393257,Hypericum richeri Vill.,False,66,46
+1358099,Sedum brevifolium DC.,False,67,47
+1358132,Sedum rubens L.,False,67,47
+1363703,Lupinus albus L.,False,68,46
+1395722,Sagittaria sagittifolia L.,False,69,47
+1412833,Nymphaea odorata Aiton,False,69,47
+1394455,Pelargonium peltatum (L.) Aiton,False,70,48
+1392361,Fragaria moschata Weston,False,71,49
+1397305,Alcea biennis Winterl,False,71,51
+1391110,Chaerophyllum aureum L.,False,72,50
+1397491,Sedum atratum L.,False,72,50
+1358749,Lamium flexuosum Ten.,False,73,51
+1389492,Tagetes tenuifolia Cav.,False,73,51
+1398274,Adenostyles leucophylla (Willd.) Rchb.,False,73,51
+1363700,Lupinus luteus L.,False,74,50
+1411834,Duchesnea indica (Andrews) Teschem.,False,75,53
+1393981,Nymphoides peltata (S.G.Gmel.) Kuntze,False,76,54
+1389553,Acacia melanoxylon R.Br.,False,78,54
+1398447,Aralia elata (Miq.) Seem.,False,78,56
+1356469,Achyranthes aspera L.,False,80,56
+1363491,Phalaris canariensis L.,False,80,56
+1393850,Moehringia muscosa L.,False,80,56
+1393254,Hypericum pulchrum L.,False,81,57
+1389630,Perovskia abrotanoides Kar.,False,82,58
+1392096,Erucastrum nasturtiifolium (Poir.) O.E.Schulz,False,82,56
+1393789,Melilotus altissimus Thuill.,False,82,56
+1393980,Nymphaea candida C.Presl,False,82,56
+1395721,Sagittaria latifolia Willd.,False,83,57
+1516297,Othonna capensis L.H.Bailey,False,84,58
+1357331,Calendula stellata Cav.,False,85,59
+1358103,Sedum cepaea L.,False,85,59
+1550692,Pelargonium × hortorum L.H. Bailey,False,86,62
+1358101,Sedum caeruleum L.,False,87,61
+1356901,Moehringia trinervia (L.) Clairv.,False,88,62
+1646149,Hebe andersonii (Lindl. & J. Paxton) Cockayne,False,89,63
+1357506,Cirsium monspessulanum (L.) Hill,False,91,63
+1399231,Lamium orvala L.,False,93,65
+1364158,Tagetes minuta L.,False,95,67
+1392658,Guizotia abyssinica (L.f.) Cass.,False,95,67
+1364000,Duchesnea indica (Jacks.) Focke,False,96,68
+1358112,Sedum hirsutum All.,False,97,67
+1364161,Calendula arvensis (Vaill.) L.,False,99,69
+1363770,Acacia mearnsii De Wild.,False,100,70
+1396161,Sedum ochroleucum Chaix,False,102,72
+1408788,Trimezia martinicensis (Jacq.) Herb.,False,102,72
+1394405,Papaver pseudoorientale (Fedde) Medw.,False,103,73
+1372016,Morinda citrifolia L.,False,104,72
+1392689,Hebe andersonii (Lindl. & Paxton) Cockayne,False,104,72
+1393654,Lupinus arboreus Sims,False,104,72
+1360618,Berula erecta (Huds.) Coville,False,105,75
+1360835,Centranthus calcitrapae (L.) Dufr.,False,105,73
+1393418,Lactuca viminea (L.) J.Presl & C.Presl,False,105,73
+1363769,Acacia longifolia (Andrews) Willd.,False,106,74
+1391235,Cirsium rivulare (Jacq.) All.,False,108,76
+1391868,Empetrum nigrum L.,False,108,76
+1419115,Pelargonium x hortorum L.H. Bailey,False,108,76
+1529242,Sedum makinoi Maxim.,False,109,77
+1363117,Tradescantia cerinthoides Kunth,False,110,76
+1396156,Sedum kamtschaticum Fisch. & C.A.Mey.,False,110,76
+1363127,Papaver hybridum L.,False,111,77
+1358701,Hypericum humifusum L.,False,114,80
+1396143,Sedum sarmentosum Bunge,False,114,80
+1403967,Cereus hexagonus (L.) Mill.,False,116,82
+1358699,Hypericum hircinum L.,False,117,81
+1396133,Diascia rigescens E.Mey. ex Benth.,False,119,83
+1356278,Trifolium fragiferum L.,False,121,85
+1360148,Adonis annua L.,False,122,86
+1371691,Mussaenda erythrophylla Schumach. & Thonn.,False,123,85
+1391193,Cirsium erisithales (Jacq.) Scop.,False,123,85
+1393933,Narthecium ossifragum (L.) Huds.,False,123,87
+1398480,Clethra alnifolia L.,False,124,88
+1420496,Mussaenda philippica A.Rich.,False,124,86
+1358519,Acalypha virginica L.,False,126,88
+1362489,Sedum anglicum Huds.,False,127,89
+1363451,Secale cereale L.,False,127,89
+1529124,Sedum clavatum R.T. Clausen,False,127,89
+1389442,Atocion rupestre (L.) B.Oxelman,False,130,90
+1395391,Holodiscus discolor (Pursh) Maxim.,False,130,92
+1412699,Mertensia virginica (L.) Pers. ex Link,False,130,92
+1357652,Hyoseris radiata L.,False,132,92
+1394164,Ophrys passionis Sennen,False,134,94
+1394394,Anemone apennina L.,False,134,94
+1413002,Aralia nudicaulis L.,False,134,92
+1503981,Cirsium palustre (L.) Coss. ex Scop.,False,135,93
+1361891,Falcaria vulgaris Bernh.,False,136,96
+1488026,Pilosocereus pachycladus F. Ritter,False,137,97
+1418140,Lithops pseudotruncatella N.E.Br.,False,138,98
+1376726,Peperomia pellucida (L.) Kunth,False,140,98
+1405686,Breynia disticha J.R.Forst. & G.Forst.,False,140,98
+1412418,Lamium maculatum L.,False,141,99
+1400081,Adonis vernalis L.,False,143,101
+1397551,Trifolium badium Schreb.,False,144,100
+1358710,Hypericum tetrapterum Fr.,False,145,101
+1397209,Viscaria vulgaris Bernh.,False,145,103
+1362434,Centranthus angustifolius (Mill.) DC.,False,149,103
+1422105,Tradescantia zebrina hort. ex Bosse,False,149,105
+1412337,Anemone canadensis L.,False,151,105
+1414058,Tradescantia ohiensis Raf.,False,152,106
+1408688,Acalypha hispida Burm.f.,False,155,109
+1389230,Phedimus aizoon (L.) 't Hart,False,157,109
+1396842,Trifolium alpestre L.,False,158,110
+1411524,Conoclinium coelestinum (L.) DC.,False,159,111
+1385701,Couroupita guianensis Aubl.,False,167,117
+1412661,Maianthemum racemosum (L.) Link,False,168,118
+1363750,Melilotus officinalis (L.) Pall.,False,171,119
+1419173,Loropetalum chinense (R. Br.) Oliv.,False,173,121
+1529265,Sedum nussbaumerianum Bitter,False,173,121
+1359486,Trifolium aureum Pollich,False,174,122
+1363613,Sedum hispanicum L.,False,174,122
+1412659,Maianthemum canadense Desf.,False,175,123
+1355959,Pelargonium peltatum (L.) L'Hér.,False,178,124
+1359519,Trifolium resupinatum L.,False,178,124
+1361745,Myosoton aquaticum (L.) Moench,False,178,126
+1393846,Moehringia ciliata (Scop.) Dalla Torre,False,178,124
+1360759,Meum athamanticum Jacq.,False,179,127
+1667445,Fragaria × ananassa (Duchesne ex Weston) Duchesne ex Rozier,False,179,125
+1389044,Lactuca plumieri (L.) Gren. & Godr.,False,187,131
+1389921,Erechtites hieraciifolius (L.) Raf. ex DC.,False,187,131
+1394453,Pelargonium x hybridum (L.) Aiton,False,194,136
+1432786,Calendula arvensis M.Bieb.,False,196,136
+1391649,Daphne cneorum L.,False,197,137
+1488171,Selenicereus anthonyanus (Alexander) D.R. Hunt,False,198,138
+1358108,Sedum forsterianum Sm.,False,200,140
+1359497,Trifolium hybridum L.,False,200,140
+1391209,Cirsium heterophyllum (L.) Hill,False,200,140
+1359508,Trifolium montanum L.,False,203,143
+1364165,Carthamus tinctorius L.,False,204,142
+1405641,Asystasia gangetica (L.) T.Anderson,False,206,144
+1397403,Honckenya peploides (L.) Ehrh.,False,208,144
+1397311,Anemone narcissiflora L.,False,220,154
+1419334,Liriope muscari (Decne.) L.H.Bailey,False,221,153
+1398513,Hypericum patulum Thunb.,False,222,156
+1360550,Hyoscyamus albus L.,False,226,158
+1392094,Erucastrum incanum (L.) W.D.J.Koch,False,229,159
+1397352,Cirsium spinosissimum (L.) Scop.,False,229,159
+1392777,Hippophae rhamnoides L.,False,238,168
+1389231,Phedimus spurius (M.Bieb) 't Hart,False,241,169
+1389297,Cereus jamacaru DC.,False,243,169
+1359622,Althaea cannabina L.,False,245,171
+1360555,Hyoscyamus niger L.,False,245,171
+1391112,Chaerophyllum hirsutum L.,False,248,174
+1399145,Cucurbita moschata Duchesne,False,250,176
+1363126,Papaver argemone L.,False,252,178
+1409185,Aphelandra squarrosa Nees,False,252,178
+1397313,Angelica archangelica L.,False,255,179
+1397387,Fragaria viridis Weston,False,255,179
+1396713,Telekia speciosa (Schreb.) Baumg.,False,256,180
+1363778,Acacia retinodes Schltdl.,False,260,182
+1405685,Acalypha wilkesiana Müll.Arg.,False,260,182
+1361850,Trifolium rubens L.,False,265,187
+1362927,Tradescantia pallida (Rose) D.R. Hunt,False,265,185
+1391963,Epipactis palustris (L.) Crantz,False,266,186
+1397514,Trifolium medium L.,False,267,187
+1357379,Carthamus lanatus L.,False,271,189
+1358700,Hypericum hirsutum L.,False,274,192
+1389307,Sedum pachyphyllum Rose,False,275,193
+1363871,Barbarea verna (Mill.) Asch.,False,277,195
+1397351,Cirsium acaulon (L.) Scop.,False,282,196
+1396165,Sedum sexangulare L.,False,283,197
+1398111,Adenostyles alliariae (Gouan) A.Kern.,False,285,199
+1497667,Tradescantia sillamontana Matuda,False,286,200
+1413755,Sedum spathulifolium Hook.,False,295,207
+1409215,Peperomia caperata Yunck.,False,299,209
+1393450,Lathraea squamaria L.,False,302,212
+1408045,Alocasia macrorrhizos (L.) G.Don,False,303,213
+1398326,Calycanthus floridus L.,False,309,217
+1357705,Limbarda crithmoides (L.) Dumort.,False,310,218
+1393250,Hypericum maculatum Crantz,False,313,219
+1356816,Vaccaria hispanica (Mill.) Rauschert,False,314,220
+1363021,Cenchrus setaceus (Forssk.) Morrone,False,317,221
+1396843,Trifolium alpinum L.,False,319,223
+1359483,Trifolium angustifolium L.,False,322,226
+1393414,Lactuca alpina (L.) Benth. & Hook.f.,False,329,231
+1394399,Papaver alpinum L.,False,331,233
+1361024,Butomus umbellatus L.,False,332,234
+1356428,Osmunda regalis L.,False,337,237
+1391797,Dryas octopetala L.,False,342,240
+1359525,Trifolium stellatum L.,False,343,241
+1399783,Schefflera actinophylla Harms,False,345,241
+1355868,Lactuca virosa L.,False,365,255
+1393725,Maianthemum bifolium (L.) F.W.Schmidt,False,367,255
+1363110,Anemone hortensis L.,False,380,266
+1529328,Sedum rubrotinctum R.T. Clausen,False,381,267
+1393946,"Neotinea ustulata (L.) R.M.Bateman, Pridgeon & M.W.Chase",False,382,268
+1391953,Epipactis atrorubens (Hoffm.) Besser,False,388,272
+1361666,Ophrys scolopax Cav.,False,394,276
+1393466,Lavandula latifolia Medik.,False,417,291
+1363129,Papaver dubium L.,False,430,302
+1397303,Adenostyles alpina (L.) Bluff & Fingerh.,False,436,306
+1362954,Schefflera actinophylla (Endl.) Harms,False,446,312
+1359197,Galega officinalis L.,False,463,325
+1360811,Thapsia villosa L.,False,492,346
+1393449,Lathraea clandestina L.,False,494,344
+1398444,Anemone blanda Schott & Kotschy,False,504,352
+1356692,Lithodora fruticosa (L.) Griseb.,False,514,358
+1394504,Anemone sylvestris L.,False,516,362
+1397312,Anemone ranunculoides L.,False,524,368
+1409292,Dendrobium nobile Lindl.,False,527,369
+1363699,Lupinus angustifolius L.,False,535,373
+1529081,Sedum adolphii Raym.-Hamet,False,536,374
+1392695,Hebe salicifolia (G.Forst.) Pennell,False,550,386
+1418547,Sedum morganianum E.Walther,False,552,386
+1397420,Lactuca perennis L.,False,553,387
+1363490,Phalaris arundinacea L.,False,560,392
+1358150,Alliaria petiolata (M. Bieb.) Cavara & Grande,False,577,403
+1420863,Kniphofia uvaria (L.) Oken,False,591,413
+1357677,Lactuca muralis (L.) Gaertn.,False,603,421
+1363749,Melilotus indicus (L.) All.,False,618,432
+1391483,Cucurbita maxima Duchesne,False,642,448
+1391652,Daphne mezereum L.,False,645,451
+1421021,Sedum palmeri S. Watson,False,667,467
+1358105,Sedum dasyphyllum L.,False,673,471
+1359485,Trifolium arvense L.,False,674,472
+1393792,Melilotus officinalis (L.) Lam.,False,675,473
+1363737,Trifolium dubium Sibth.,False,676,472
+1394489,Anemone pulsatilla L.,False,682,478
+1360590,Daphne laureola L.,False,685,479
+1398128,Sedum palmeri S.Watson,False,722,506
+1358751,Lamium hybridum Vill.,False,728,508
+1391226,Cirsium oleraceum (L.) Scop.,False,728,508
+1360588,Daphne gnidium L.,False,740,518
+1360153,Anemone coronaria L.,False,750,526
+1409295,Nandina domestica Thunb.,False,754,528
+1359488,Trifolium campestre Schreb.,False,765,535
+1361759,Cirsium palustre (L.) Scop.,False,772,540
+1356126,Lavandula dentata L.,False,776,542
+1358605,Mercurialis perennis L.,False,787,551
+1390637,Calendula arvensis L.,False,787,551
+1359625,Althaea officinalis L.,False,794,556
+1360998,Anthericum liliago L.,False,805,563
+1364172,Lactuca sativa L.,False,806,564
+1360671,Chaerophyllum temulum L.,False,840,588
+1391192,Cirsium eriophorum (L.) Scop.,False,846,592
+1363336,Smilax aspera L.,False,869,607
+1356111,Lamium amplexicaule L.,False,898,628
+1398515,Hypericum x hidcoteense Hilling ex Geerinck,False,906,634
+1394404,Papaver orientale L.,False,940,658
+1355978,Pelargonium zonale (L.) L'Hér.,False,972,680
+1362294,Epipactis helleborine (L.) Crantz,False,974,682
+1359669,Nymphaea alba L.,False,993,695
+1369960,Tradescantia spathacea Sw.,False,1016,710
+1358689,Hypericum androsaemum L.,False,1050,734
+1363764,Acacia dealbata Link,False,1050,736
+1393393,Kniphofia uvaria (L.) Hook.,False,1060,742
+1360978,Pancratium maritimum L.,False,1078,754
+1364159,Tagetes patula L.,False,1104,774
+1394454,Pelargonium inquinans (L.) Aiton,False,1112,778
+1356382,Dryopteris filix-mas (L.) Schott,False,1113,779
+1356075,Tradescantia fluminensis Vell.,False,1130,792
+1400100,Barbarea vulgaris R.Br.,False,1159,813
+1418146,Fittonia albivenis (Lindl. ex Veitch) Brummitt,False,1173,821
+1396824,Tradescantia virginiana L.,False,1231,863
+1384485,Cucurbita pepo L.,False,1283,899
+1355990,Mercurialis annua L.,False,1320,924
+1357635,Helminthotheca echioides (L.) Holub,False,1360,952
+1394382,Anemone alpina L.,False,1418,992
+1362490,Sedum rupestre L.,False,1431,1003
+1359498,Trifolium incarnatum L.,False,1438,1006
+1356257,Melilotus albus Medik.,False,1485,1041
+1361656,Ophrys apifera Huds.,False,1641,1149
+1358133,Sedum sediforme (Jacq.) Pau,False,1655,1159
+1358766,Lavandula stoechas L.,False,1672,1172
+1408961,Schefflera arboricola (Hayata) Merr.,False,1678,1176
+1398592,Perovskia atriplicifolia Benth.,False,1764,1236
+1356781,Humulus lupulus L.,False,1774,1240
+1394591,Angelica sylvestris L.,False,1835,1283
+1393423,Lamium album L.,False,1842,1290
+1358094,Sedum acre L.,False,1848,1292
+1393425,Lamium maculatum (L.) L.,False,1860,1302
+1355932,Pelargonium graveolens L'Hér.,False,1891,1325
+1385937,Zamioculcas zamiifolia (Lodd.) Engl.,False,1892,1324
+1435714,Pelargonium zonale (L.) L'Hér. ex Aiton,False,1922,1346
+1408774,Tradescantia pallida (Rose) D.R.Hunt,False,1941,1357
+1394994,Pyracantha coccinea M.Roem.,False,1951,1367
+1398178,Tradescantia zebrina Bosse,False,1967,1377
+1394420,Anemone hepatica L.,False,2083,1457
+1393241,Hypericum calycinum L.,False,2111,1477
+1369887,Trachelospermum jasminoides (Lindl.) Lem.,False,2130,1492
+1393614,Liriodendron tulipifera L.,False,2143,1499
+1359616,Punica granatum L.,False,2201,1541
+1397268,Anemone hupehensis (Lemoine) Lemoine,False,2374,1662
+1367432,Lupinus polyphyllus Lindl.,False,2388,1670
+1409238,Anthurium andraeanum Linden ex André,False,2451,1715
+1363130,Papaver somniferum L.,False,2515,1759
+1374048,Tagetes erecta L.,False,2559,1791
+1389510,Aegopodium podagraria L.,False,2607,1825
+1358095,Sedum album L.,False,2687,1881
+1397364,"Cymbalaria muralis P.Gaertn., B.Mey. & Scherb.",False,2908,2036
+1364164,Lapsana communis L.,False,2997,2099
+1361824,Lavandula angustifolia Mill.,False,3001,2101
+1361823,Lamium galeobdolon (L.) L.,False,3017,2113
+1364173,Lactuca serriola L.,False,3207,2245
+1363991,Fragaria vesca L.,False,3373,2361
+1355936,Cirsium arvense (L.) Scop.,False,3648,2552
+1363740,Trifolium repens L.,False,3672,2570
+1394460,Anemone nemorosa L.,False,3727,2609
+1363128,Papaver rhoeas L.,False,4255,2979
+1359620,Alcea rosea L.,False,4664,3266
+1358752,Lamium purpureum L.,False,4951,3465
+1357330,Calendula officinalis L.,False,5238,3668
+1359517,Trifolium pratense L.,False,5560,3892
+1355937,Cirsium vulgare (Savi) Ten.,False,5570,3900
+1364099,Centranthus ruber (L.) DC.,False,5846,4092
+1356022,Hypericum perforatum L.,False,6677,4673
+1392475,Alliaria petiolata (M.Bieb.) Cavara & Grande,False,6938,4858
+1363227,Daucus carota L.,False,7752,5426

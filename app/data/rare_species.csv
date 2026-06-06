@@ -1,0 +1,16 @@
+species_id,scientific_name,n_total,n_train,consistency,organ_acc,flag
+1416509,Nepenthes vieillardii Hook. f.,30,20,0.525,0.833,ok
+1419807,Vanilla planifolia Jacks. ex Andrews,33,23,0.562,0.9,ok
+1376703,Petiveria alliacea L.,38,28,0.527,1.0,ok
+1409195,Pereskia aculeata Mill.,47,33,0.546,1.0,ok
+1408557,Pongamia pinnata (L.) Pierre,52,36,0.671,1.0,ok
+1420787,Alocasia odora (Lindl.) K.Koch,54,38,0.718,0.9,ok
+1406486,Kigelia africana (Lam.) Benth.,55,37,0.492,1.0,low_consistency
+1408490,Pereskia grandifolia Haw.,58,40,0.596,0.933,ok
+1385700,Barringtonia asiatica (L.) Kurz,67,47,0.772,1.0,ok
+1356076,Tradescantia zebrina Heynh. ex Bosse,69,49,0.747,0.767,ok
+1397598,Cobaea scandens Cav.,69,49,0.615,1.0,ok
+1618661,Dendrobium victoriae-reginae Loher,71,51,0.689,0.933,ok
+1384499,Lagenaria siceraria (Molina) Standl.,80,56,0.802,1.0,ok
+1406863,Acalypha indica L.,92,66,0.738,0.567,low_organ_acc
+1392654,Gomphocarpus physocarpus E.Mey.,99,71,0.6,1.0,ok
