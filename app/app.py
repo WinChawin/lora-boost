@@ -157,7 +157,7 @@ for col, tag, label in zip(st.columns(3), ['real', 'zeroshot', 'lora'],
     col.markdown(f'**{label}**')
     for im in sorted((ASSETS/'gallery'/sid/tag).glob('*.jpg')):
         col.image(str(im), width='stretch')
-st.caption('LoRA weights ทั้ง 15 species: (วาง link HuggingFace ตรงนี้)')
+st.markdown('LoRA weights ทั้ง 15 species: [huggingface.co/Winnnnnnn/lora-boost-flux](https://huggingface.co/Winnnnnnn/lora-boost-flux)')
 
 st.divider()
 st.header('Does it work?')
