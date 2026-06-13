@@ -204,7 +204,7 @@ fig4.update_layout(xaxis_title=f'D − A ({psm}), + = ดีขึ้น')
 st.plotly_chart(style_fig(fig4, 460), width='stretch')
 
 st.divider()
-st.subheader('ภาพรวมข้าม config (ไม่ขึ้นกับตัวเลือกด้านบน)')
+st.subheader('ภาพรวมจากทุกการทดลอง')
 cc1, cc2 = st.columns(2)
 with cc1:
     st.markdown('**Budget sweep (γ=2)**')
