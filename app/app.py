@@ -86,14 +86,15 @@ d_rec, a_rec = dft.loc['D', 'rare_recall_mean'], dft.loc['A', 'rare_recall_mean'
 
 st.title('LoRA-Boost')
 st.caption('Generative augmentation for long-tail plant species classification · Pl@ntNet-300K')
-st.markdown(f'**สรุป** — เทรน LoRA ต่อ species เพื่อเจนภาพเติม rare species ช่วยดัน recall ขึ้น '
-            f'{(d_rec-a_rec):+.3f} เทียบ baseline โดย overall macro F1 ไม่ตก และชนะการเจนแบบ zero-shot ทุกครั้ง')
+st.markdown(f'**สรุปสั้นๆ** เราเทรน LoRA แยกแต่ละ species เพื่อสร้างภาพมาเติมพืชหายาก '
+            f'ช่วยให้โมเดลจำแนกกลุ่มนี้ได้ดีขึ้น (recall เพิ่ม {(d_rec-a_rec):+.3f} จาก baseline) '
+            f'โดยภาพรวมไม่แย่ลง และดีกว่าการสร้างภาพแบบ zero-shot')
 
 st.divider()
 st.header('The long-tail problem')
-st.write('Pl@ntNet-300K มี 399 species แต่จำนวนภาพต่อ species เหลื่อมล้ำกันมหาศาล '
-         '15 species ที่หายากที่สุดมีภาพ 30–99 ใบ จมอยู่ปลายหาง classifier จึงเรียนกลุ่มนี้ได้แย่ '
-         'เป้าหมายเราคือยกกลุ่มนี้ขึ้นด้วยภาพสังเคราะห์')
+st.write('Pl@ntNet-300K มี 399 species แต่จำนวนภาพแต่ละ species ต่างกันมาก บางตัวมีเป็นพันภาพ '
+         'ขณะที่ 15 rare species ของเรามี 30–99 ภาพ พอข้อมูลน้อยขนาดนี้ โมเดลจึงจำแนกกลุ่มนี้ได้ไม่ดี '
+         'เราเลยอยากช่วยเติมภาพให้มันเรียนรู้ได้มากขึ้น')
 d = longtail.sort_values('n_train', ascending=False).reset_index(drop=True)
 d['rank'] = range(1, len(d) + 1)
 rr = d[d.is_rare]
@@ -109,7 +110,7 @@ fig.update_yaxes(type='log', title='train images per species (log scale)')
 fig.update_xaxes(title='species rank (most → least images)')
 st.plotly_chart(style_fig(fig, 420), width='stretch')
 
-st.markdown('**Controlled subset — what the experiment trains on**')
+st.markdown('**Controlled subset: what the experiment trains on**')
 C, R = float(main['C'].iloc[0]), float(main['R'].iloc[0])
 kept = longtail[longtail.n_train <= C].copy()
 kept['eff'] = np.where(kept.is_rare, kept.n_train, np.minimum(kept.n_train, R))
@@ -129,16 +130,17 @@ figk.add_hline(y=R, line_dash='dash', line_color='#5e7259', annotation_text=f'R 
 figk.update_yaxes(title='train images per species')
 figk.update_xaxes(title='kept species rank')
 st.plotly_chart(style_fig(figk, 360), width='stretch')
-st.caption(f'ตัดหัว (class ที่ n_train > {C:.0f}) ออก เหลือ {len(kept)} class แล้ว cap non-rare ที่เกิน {R:.0f} ลงมา '
-           f'ทำให้ long-tail แคบลง ศึกษาได้แฟร์ขึ้น · rare 15 ตัว = จุดสีแดง')
+st.caption(f'ตัด class ที่ภาพเยอะเกิน {C:.0f} ใบออก เหลือ {len(kept)} class แล้วลดเพดาน class ที่ไม่ใช่ rare '
+           f'ให้เหลือไม่เกิน {R:.0f} ใบ เพื่อให้เทียบผลกันได้แฟร์ขึ้น (จุดสีแดงคือ rare 15 ตัว)')
 
-st.markdown('**15 rare species — augmentation target**')
+st.markdown('**15 rare species: augmentation target**')
 st.dataframe(rare.sort_values('n_train'), width='stretch', hide_index=True)
 
 st.divider()
 st.header('How LoRA-Boost works')
-st.write('เทรน LoRA แยกต่อ species บน FLUX.2-klein (DreamBooth) แล้วเจนภาพมาเติม rare species '
-         'ตอนเทรน classifier ต่างจาก zero-shot ตรงที่ LoRA ได้เห็นรูปจริงของ species นั้นก่อน')
+st.write('เราเทรน LoRA แยกทีละ species (ด้วยเทคนิค DreamBooth) บน FLUX.2-klein แล้วเอาภาพที่สร้างได้มาเติม '
+         'ให้พืชหายากตอนเทรนโมเดลจำแนก จุดต่างจาก zero-shot คือ LoRA ได้ดูรูปจริงของ species นั้นมาก่อน '
+         'จึงเรียนรู้และสร้างภาพได้ใกล้เคียงกว่า')
 PIPE = [('NB01', 'clean + split 399 species'), ('NB02', 'train 15 LoRA'),
         ('NB03', 'generate synthetic'), ('NB04', 'train ResNet-50'),
         ('NB05', 'error analysis'), ('NB06', 'budget experiment')]
@@ -215,7 +217,7 @@ with cc1:
     fig2.add_hline(y=0, line_dash='dash', line_color='#bbb')
     fig2.update_layout(xaxis_title='k (synthetic budget)', yaxis_title='D − A')
     st.plotly_chart(style_fig(fig2, 320), width='stretch')
-    st.caption('k=1 ดีสุด · k=2 เริ่มติดลบ (synthetic เยอะไป → distribution shift)')
+    st.caption('เติมภาพพอดี (k=1) ได้ผลดีสุด ถ้าเติมเยอะไป (k=2) กลับแย่ลง เพราะภาพสังเคราะห์เริ่มกลบข้อมูลจริง')
 with cc2:
     st.markdown('**Robustness across γ (k=1)**')
     gg = main[main.k == 1].sort_values('gnum')
@@ -225,7 +227,7 @@ with cc2:
         fig3.add_trace(go.Scatter(x=piv.index, y=piv[c], mode='lines+markers', name=c, line=dict(color=COLORS[c])))
     fig3.update_layout(xaxis_title='focal γ (0 = CE)', yaxis_title=METRICS[metric])
     st.plotly_chart(style_fig(fig3, 320), width='stretch')
-    st.caption('D อยู่เหนือ A ทุก γ → ผลบวกไม่ขึ้นกับ γ ตัวเดียว')
+    st.caption('LoRA-Boost (D) ดีกว่า baseline (A) ทุกค่า γ แปลว่าผลที่ได้ไม่ได้ขึ้นกับการตั้งค่าตัวใดตัวหนึ่ง')
 
 st.divider()
 def pred_rows(preds, names, rares, sids, answer_sid):
@@ -245,8 +247,8 @@ def pred_rows(preds, names, rares, sids, answer_sid):
     return html
 
 st.header('Try it yourself')
-st.write('เลือกรูป test ของ rare species หรืออัปโหลดเอง แล้วดูว่าแต่ละโมเดลทายอะไร '
-         'แท่งเขียว = species ที่ถูกต้อง (ถ้าโผล่ใน top-3)')
+st.write('เลือกรูปพืชหายากจากตัวอย่าง หรืออัปโหลดรูปเอง แล้วดูว่าแต่ละโมเดลทายว่าเป็น species อะไร 3 อันดับแรก '
+         '(แท่งสีเขียวคือ species ที่ถูกต้อง)')
 
 names, sids, rares = load_label_map()
 img, answer_sid, answer_name = None, None, None

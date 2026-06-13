@@ -16,7 +16,7 @@ OUT_DATA = APP/'data'
 OUT_ASSETS = APP/'assets'
 OUT_DATA.mkdir(parents=True, exist_ok=True)
 
-GALLERY_SPECIES = ['1419807', '1406486', '1356076', '1409195', '1420787']   # winner + loser + hard pair
+GALLERY_SPECIES = ['1356076','1376703','1384499','1385700','1392654','1397598','1406486','1406863','1408490','1408557','1409195','1416509','1419807','1420787','1618661']
 GALLERY_PER, SAMPLES_PER, MAX_PX = 3, 3, 512
 
 species   = pd.read_csv(META/'species.csv', dtype={'species_id': str})
